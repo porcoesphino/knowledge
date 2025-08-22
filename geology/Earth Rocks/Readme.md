@@ -1,20 +1,39 @@
 This mostly covers [Earth Rocks! - Physical Geology Lecture](https://www.youtube.com/playlist?list=PLrhG2NtyHAZuPW5HP3cyenGGTUqUhumeQ) by Katryn Wiese as part of the City College of San Francisco
 
+## Minerals Series
+
+- Part I: The Rock Cycle
+- Part II: Water Molecule Shape (S01E22)
+- Part III: Inside Minerals (S01E23)
+- Part IV: Mineral Identification (S01E24)
+- Part V: Minerals Addendum (S01E25)
+
+Note, there is also a Seawater Physical Properties Series:
+
+- Part I: Water Molecule Shape
+- Part II: Water Phases
+- Part III: Water Density
+- Part IV: Heats of Water
+- Part V: Light, Viscosity & Pressure
+- Part VI: Heat Transfer
+
+## Igneous Rocks Series
+
+- Part I: Igneous Rocks (S01E26)
+- Part II: Plutons (S01E27)
+- Part III: Magma Viscosity (S01E28)
+
 ## Volcanos (S01E29)
 
 ## Sedimentary Rock Series
 
 - Part I: Weathering and Sedimentation (S01E30)
-- Part II: Sedimentary Rocks
-
-## Sedimentary Rock Identification (S01E31)
+- Part II: Sedimentary Rocks (S01E31)
 
 ## Metamorphism
 
-- Part I: Metamophism
-- Part II: Metamorphic Rocks (S01E32)
-
-## Metamorphic Rock Identification (S01E33)
+- Part I: Metamophism (S01E32)
+- Part II: Metamorphic Rocks (S01E33)
 
 ## Mass Movement (S01E34)
 
