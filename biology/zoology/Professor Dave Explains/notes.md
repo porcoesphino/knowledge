@@ -1,6 +1,6 @@
 # Professor Dave Explains - Zoology
 
-## E04 - Major divisions
+## E04 - [Major Divisions of Kingdom Animalia and the Problem With Animal Phyla](https://www.youtube.com/watch?v=APkHKOf9rG4&list=PLybg94GvOJ9HpCr9iU9YXHa5kXj0Pp2dA&index=5)
 
 The phylogenetic tree is based on work in [The Invertebrate Tree of Life
 Gonzalo Giribet and Gregory D. Edgecombe](https://press.princeton.edu/books/hardcover/9780691170251/the-invertebrate-tree-of-life).
