@@ -11,7 +11,7 @@ feeling energized and productive the next morning.
 ***<!--c1::-->Marginal utility*** - The cost/benefit of an extra unit of something.
 Like when you think four chicken nuggets is a good dinner for you but for the same
 price you can get six and if you do there is also a cost to your health for buying
-those extra two.
+those extra two, but if you are staving then those two chick nuggets may be life-and-death.
 --- ---
 --- --- ---
 ***<!--c1::-->Sunk cost*** - Costs that can't be reversed. Like a non-refundable
