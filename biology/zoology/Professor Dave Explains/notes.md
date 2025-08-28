@@ -2,6 +2,39 @@
 
 ## E01 Introduction to Zoology - What are Animals？
 
+Course prerequisites:
+
+- Biochemistry — basics regarding biomolecules, metabolic processes
+- Biology — basics regarding components of the cell, cellular processes
+- Anatomy and Physiology — basics regarding tissues, organs, and organ systems
+
+Common traits of animals:
+
+1. eukaryotic
+2. heterotrophic
+3. capable of aerobic respiration
+4. capable of sexual reproduction
+5. must be motile at some point
+6. grows from a blastula
+
+Examples of exceptions:
+
+- [Shilly-Shally worm](https://en.wikipedia.org/wiki/Symsagittifera_roscoffensis)
+
+  - does not have a digestive tract
+  - survives via photosynthetic symbionts
+
+- [Gastrotrichs](https://en.wikipedia.org/wiki/Gastrotrich)
+
+  - some species can survive in stagnant pools of anaerobic mud
+
+- one species of [Myxozoa](https://en.wikipedia.org/wiki/Myxozoa) (parasitic cnidarians)
+
+  - has no mitochondrial genome
+  - is incapable of breathing oxygen
+
+An animal is any descendant of the common ancestor of the other animals.
+
 ## E02 Cladistics Part 1 - Constructing Cladograms
 
 ## E03 Cladistics Part 2 - Monophyly, Paraphyly, and Polyphyly
