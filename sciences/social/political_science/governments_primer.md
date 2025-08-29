@@ -135,24 +135,21 @@ Systems of law include:
 
 ## The different political systems
 
-Modern political systems are often thought of on a spectrum from:
-
-- [totalitarian regimes](https://en.wikipedia.org/wiki/Totalitarianism), to
-- [authoritarian regimes](https://en.wikipedia.org/wiki/Authoritarianism), to
-- [democracies](https://en.wikipedia.org/wiki/Democracy).
-
-Including a variety of hybrid regimes. Monarchies can vary from symbolic heads
-in a democracy to totalitarian monarchies (in history). Historically prevalent
-forms of government include [monarchy](https://en.wikipedia.org/wiki/Monarchy),
-[aristocracy](https://en.wikipedia.org/wiki/Aristocracy),
-[timocracy](https://en.wikipedia.org/wiki/Timocracy),
-[oligarchy](https://en.wikipedia.org/wiki/Oligarchy),
-[democracy](https://en.wikipedia.org/wiki/Democracy),
-[theocracy](https://en.wikipedia.org/wiki/Theocracy), and
-[tyranny](https://en.wikipedia.org/wiki/Tyrant). These forms are not always
-mutually exclusive, and mixed governments are common.
+According to professor Juan José Linz there are three main types of political
+systems today: [democracies](https://en.wikipedia.org/wiki/Democracy),
+[totalitarian regimes](https://en.wikipedia.org/wiki/Totalitarianism) regimes
+and, sitting between these two,
+[authoritarian regimes](https://en.wikipedia.org/wiki/Authoritarianism). There
+are a number of hybrid regimes including some that can lie in different places
+along this spectrum, like:
+[monarchies](https://en.wikipedia.org/wiki/Monarchy),
+[theocracies](https://en.wikipedia.org/wiki/Theocracy),
+[oligarchies](https://en.wikipedia.org/wiki/Oligarchy), and
+[military juntas](https://en.wikipedia.org/wiki/Military_junta).
 
 - Wikipedia - [Government](https://en.wikipedia.org/wiki/Government)
+- Wikipedia - [Political system](https://en.wikipedia.org/wiki/Political_system)
+- Wikipedia - [List of forms of government](https://en.wikipedia.org/wiki/List_of_forms_of_government)
 
 ### World's states colored by systems of government
 
