@@ -147,47 +147,47 @@ democracy.
 - Parliamentary systems: Head of government is elected or nominated by and
 accountable to the legislature.
 
-  - <span style="background-color:#db060b;width: 1.25em;height: 1.25em;border: 1px solid black;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  - ![colour for legend](https://placehold.co/15x15/db060b/svg)
     Constitutional monarchy with a ceremonial monarch
-  - <span style="background-color:#f4a637;width: 1.25em;height: 1.25em;border: 1px solid black;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  - ![colour for legend](https://placehold.co/15x15/f4a637/svg)
     Parliamentary republic with a ceremonial president
-  - <span style="background-color:#4db264;width: 1.25em;height: 1.25em;border: 1px solid black;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  - ![colour for legend](https://placehold.co/15x15/4db264/svg)
     Parliamentary republic with an executive president
 
 - Presidential system: Head of government (president) is popularly elected and
 independent of the legislature.
 
-  - <span style="background-color:#1965b0;width: 1.25em;height: 1.25em;border: 1px solid black;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  - ![colour for legend](https://placehold.co/15x15/1965b0/svg)
     Presidential republic
 
 - Hybrid systems:
 
-  - <span style="background-color:#f7f057;width: 1.25em;height: 1.25em;border: 1px solid black;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  - ![colour for legend](https://placehold.co/15x15/f7f057/svg)
     Semi-presidential republic: Executive president is independent of the
     legislature; head of government is appointed by the president and is
     accountable to the legislature.
-  - <span style="background-color:#7bb0df;width: 1.25em;height: 1.25em;border: 1px solid black;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  - ![colour for legend](https://placehold.co/15x15/7bb0df/svg)
     Assembly-independent republic: Head of government (president or directory)
     is elected by the legislature, but is not accountable to it.
 
 - Other systems:
-  - <span style="background-color:#90c886;width: 1.25em;height: 1.25em;border: 1px solid black;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  - ![colour for legend](https://placehold.co/15x15/90c886/svg)
     Theocratic republic: Supreme Leader is both head of state and church and
     holds significant executive and legislative power
-  - <span style="background-color:#ae76a3;width: 1.25em;height: 1.25em;border: 1px solid black;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  - ![colour for legend](https://placehold.co/15x15/ae76a3/svg)
     Semi-constitutional monarchy: Monarch holds significant executive or
     legislative power.
-  - <span style="background-color:#882e72;width: 1.25em;height: 1.25em;border: 1px solid black;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  - ![colour for legend](https://placehold.co/15x15/882e72/svg)
     Absolute monarchy: Monarch has unlimited power.
-  - <span style="background-color:#71190e;width: 1.25em;height: 1.25em;border: 1px solid black;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  - ![colour for legend](https://placehold.co/15x15/71190e/svg)
     One-party state: Power is constitutionally linked to a single political party.
-  - <span style="background-color:#cae1ac;width: 1.25em;height: 1.25em;border: 1px solid black;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  - ![colour for legend](https://placehold.co/15x15/cae1ac/svg)
     Military junta: Committee of military leaders controls the government;
     constitutional provisions are suspended.
-  - <span style="background-color:#777777;width: 1.25em;height: 1.25em;border: 1px solid black;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  - ![colour for legend](https://placehold.co/15x15/777777/svg)
     Governments with no constitutional basis: No constitutionally defined basis
     to current regime, i.e., provisional governments or Islamic theocracies.
-  - <span style="background-color:#c0c0c0;width: 1.25em;height: 1.25em;border: 1px solid black;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  - ![colour for legend](https://placehold.co/15x15/c0c0c0/svg)
     Dependent territories or places without governments
 
 References:
