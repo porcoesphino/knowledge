@@ -96,6 +96,68 @@ forms of government include [monarchy](https://en.wikipedia.org/wiki/Monarchy),
 [tyranny](https://en.wikipedia.org/wiki/Tyrant). These forms are not always
 mutually exclusive, and mixed governments are common.
 
+- Wikipedia - [Government](https://en.wikipedia.org/wiki/Government)
+
+### World's states colored by systems of government
+
+> **Note**: Several states constitutionally declare themselves to be multiparty
+republics but are generally described by outsiders as authoritarian states. This
+chart represents the [de jure](https://en.wikipedia.org/wiki/De_jure) systems of
+government, not the [de facto](https://en.wikipedia.org/wiki/De_facto) degree of
+democracy.
+
+[![Text](https://upload.wikimedia.org/wikipedia/commons/0/04/Forms_of_government.svg)](https://en.wikipedia.org/wiki/File:Forms_of_government.svg)
+
+- Parliamentary systems: Head of government is elected or nominated by and
+accountable to the legislature.
+
+  - <span style="background-color:#db060b;width: 1.25em;height: 1.25em;border: 1px solid black;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    Constitutional monarchy with a ceremonial monarch
+  - <span style="background-color:#f4a637;width: 1.25em;height: 1.25em;border: 1px solid black;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    Parliamentary republic with a ceremonial president
+  - <span style="background-color:#4db264;width: 1.25em;height: 1.25em;border: 1px solid black;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    Parliamentary republic with an executive president
+
+- Presidential system: Head of government (president) is popularly elected and
+independent of the legislature.
+
+  - <span style="background-color:#1965b0;width: 1.25em;height: 1.25em;border: 1px solid black;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    Presidential republic
+
+- Hybrid systems:
+
+  - <span style="background-color:#f7f057;width: 1.25em;height: 1.25em;border: 1px solid black;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    Semi-presidential republic: Executive president is independent of the
+    legislature; head of government is appointed by the president and is
+    accountable to the legislature.
+  - <span style="background-color:#7bb0df;width: 1.25em;height: 1.25em;border: 1px solid black;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    Assembly-independent republic: Head of government (president or directory)
+    is elected by the legislature, but is not accountable to it.
+
+- Other systems:
+  - <span style="background-color:#90c886;width: 1.25em;height: 1.25em;border: 1px solid black;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    Theocratic republic: Supreme Leader is both head of state and church and
+    holds significant executive and legislative power
+  - <span style="background-color:#ae76a3;width: 1.25em;height: 1.25em;border: 1px solid black;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    Semi-constitutional monarchy: Monarch holds significant executive or
+    legislative power.
+  - <span style="background-color:#882e72;width: 1.25em;height: 1.25em;border: 1px solid black;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    Absolute monarchy: Monarch has unlimited power.
+  - <span style="background-color:#71190e;width: 1.25em;height: 1.25em;border: 1px solid black;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    One-party state: Power is constitutionally linked to a single political party.
+  - <span style="background-color:#cae1ac;width: 1.25em;height: 1.25em;border: 1px solid black;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    Military junta: Committee of military leaders controls the government;
+    constitutional provisions are suspended.
+  - <span style="background-color:#777777;width: 1.25em;height: 1.25em;border: 1px solid black;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    Governments with no constitutional basis: No constitutionally defined basis
+    to current regime, i.e., provisional governments or Islamic theocracies.
+  - <span style="background-color:#c0c0c0;width: 1.25em;height: 1.25em;border: 1px solid black;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    Dependent territories or places without governments
+
+References:
+
+- Wikipedia image - [Forms of government](https://en.wikipedia.org/wiki/File:Forms_of_government.svg)
+
 ### Totalitarian regimes
 
 ### Democracies
