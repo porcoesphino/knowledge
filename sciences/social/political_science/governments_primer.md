@@ -114,8 +114,9 @@ References:
 
 ## Modern political systems
 
-According to professor Juan José Linz there are three main types of political
-systems today: [democracies](https://en.wikipedia.org/wiki/Democracy),
+According to professor [Juan José Linz](https://en.wikipedia.org/wiki/Juan_José_Linz)
+there are three main types of political systems today:
+[democracies](https://en.wikipedia.org/wiki/Democracy),
 [totalitarian regimes](https://en.wikipedia.org/wiki/Totalitarianism) regimes
 and, sitting between these two,
 [authoritarian regimes](https://en.wikipedia.org/wiki/Authoritarianism). There
@@ -196,9 +197,79 @@ References:
 
 ### Totalitarian regimes
 
+A form of government that prohibits opposition from political parties,
+disregards and outlaws the political claims of individual and group opposition
+to the state, and completely controls the public sphere and the private sphere
+of society. Ideology is used to control most aspects of human life, such as the
+political economy of the country, the system of education, the arts, sciences,
+and private morality of its citizens. The difference between a totalitarian
+régime and an [authoritarian](https://en.wikipedia.org/wiki/Authoritarianism)
+régime is the degree of control with [totalitarian](https://en.wikipedia.org/wiki/Totalitarianism)
+being complete control.
+
+References:
+
+- Wikipedia - [Totalitarianism](https://en.wikipedia.org/wiki/Totalitarianism)
+
 ### Democracies
 
 ### Authoritarian regimes
+
+An authoritarian regime has a concentration of power in a leader or an elite
+not constitutionally responsible to the people". Unlike totalitarian states,
+they will allow social and economic institutions not under governmental
+control, and tend to rely on passive mass acceptance rather than active popular
+support. [Juan Linz](https://en.wikipedia.org/wiki/Juan_José_Linz)
+in [*An Authoritarian Regime: Spain*](https://www.academia.edu/39203506/I_B_33_An_Authoritarian_Regime_The_Case_of_Spain)
+defined authoritarianism as possessing four qualities:
+
+- Limited political pluralism, which is achieved with constraints on the
+legislature, political parties and interest groups.
+- Political legitimacy based on appeals to emotion and identification of the
+regime as a necessary evil to combat "easily recognizable societal problems,
+such as underdevelopment or insurgency."
+- Minimal political mobilization, and suppression of anti-regime activities.
+- Ill-defined executive powers, often vague and shifting, used to extend the
+power of the executive.
+
+Typically control is maintained by force, and little heed is paid to public
+opinion or the judicial system.
+
+There is a common mental image of an authoritarian state as one of grim totalitarianism,
+desperate hardship, strict censorship, and dictatorial orders of murder,
+torture and disappearances. But as
+[Thomas Pepinsky](https://en.wikipedia.org/wiki/Thomas_Pepinsky) writes,
+"life in authoritarian states is mostly boring and tolerable". Similarly,
+when democratic backsliding and the slide into authoritarianism are mentioned
+many people think of the worst stage of Nazi Germany, around ten years after
+Hilter was elected, and not how Germany was one year in.
+
+References:
+
+- Wikipedia - [Authoritarianism](https://en.wikipedia.org/wiki/Authoritarianism)
+
+#### Related terms
+
+- [Autocracy](https://en.wikipedia.org/wiki/Autocracy) - A form of government
+  in which absolute power is held by the head of state and government. ie.
+  Dictatorships and some forms of monarchy.
+- [Dictatorship](https://en.wikipedia.org/wiki/Dictatorship) - A form of
+  government which is characterized by a leader, or a group of leaders, who
+  hold governmental powers with few to no limitations.
+  > Note: The term comes from temporary extended powers in the Roman Republic
+  but currently usage would describe the tyrants of the time.
+- [Fascism](https://en.wikipedia.org/wiki/Fascism)
+  - Centralization of authority under a dictator,
+  - A capitalist economy subject to stringent governmental controls,
+  - Violent suppression of the opposition, and
+  - Typically a policy of belligerent nationalism and racism
+
+References:
+
+- Wikipedia - [Authoritarianism > Similar_terms](https://en.wikipedia.org/wiki/Authoritarianism#Similar_terms)
+- Wikipedia - [Dictatorship](https://en.wikipedia.org/wiki/Dictatorship)
+- Wikipedia - [Autocracy](https://en.wikipedia.org/wiki/Autocracy)
+- The American Heritage® Dictionary - [fascism](https://ahdictionary.com/word/search.html?q=fascism)
 
 ### Oligarchies
 
