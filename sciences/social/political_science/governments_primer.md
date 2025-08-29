@@ -44,15 +44,15 @@ References:
 
 ## Political systems
 
-Political systems define the process for making official government decisions. They usually comprise the governmental legal and economic system, social and cultural system, and other state and government specific systems. In reality this is a very complex system involving the questions of who should have authority and what the government influence on its people and economy should be.
-
-Besides the ranking below there are some other spectrums that can be used:
-
-- a social-cultural axis relative to the [liberal values](https://en.wikipedia.org/wiki/Liberal_values)
+Political systems define the process for making official government decisions.
+They usually comprise the governmental legal and economic system, social and
+cultural system, and other state and government specific systems. In reality
+this is a very complex system involving the questions of who should have
+authority and what the government influence on its people and economy should be.
 
 ### Social anthropological political systems
 
-Political systems as categorised by social anthropologists:
+A broad starting place are the political systems as categorised by social anthropologists:
 
 - Uncentralised systems
 
@@ -112,50 +112,7 @@ References:
 
 - Wikipedia - [Political system](https://en.wikipedia.org/wiki/Political_system)
 
-## The structures of government
-
-Many governments use a tripartite government of three branches:
-
-- Legislative
-
-  - Creates the laws
-  - Controls budget
-
-- Judiciary
-
-  - Enforces the laws
-
-    - Are new legislative laws legal?
-    - Are executive actions legal?
-
-- Executive
-
-  - Guides the general direction of the government
-  - Runs the government based on the laws passed by the legislative
-
-In many countries, the government has a kind of
-[constitution](https://en.wikipedia.org/wiki/Constitution), a statement of its
-governing principles and philosophy.
-
-### The legislature
-
-### The judiciary
-
-### The executive
-
-## Systems of law
-
-Systems of law include:
-
-- Civil law
-- Common law
-- Customary law
-- Muslim law
-- Jewish law
-
-[![A map showing different combinations of legal systems around the world](https://upload.wikimedia.org/wikipedia/commons/9/92/Map_of_the_Legal_systems_of_the_world_%28en%29.png)](<https://commons.wikimedia.org/wiki/File:Map_of_the_Legal_systems_of_the_world_(en).png>)
-
-## The different political systems
+## Modern political systems
 
 According to professor Juan José Linz there are three main types of political
 systems today: [democracies](https://en.wikipedia.org/wiki/Democracy),
@@ -170,6 +127,8 @@ along this spectrum, like:
 [military juntas](https://en.wikipedia.org/wiki/Military_junta). The only countries
 that don't claim to be a type of democracy are Saudi Arabia, Oman, the UAE,
 Qatar, Brunei, Afghanistan, and the Vatican ([see this map](https://en.wikipedia.org/wiki/List_of_forms_of_government#/media/File:Democracy_claims.svg)).
+
+References:
 
 - Wikipedia - [Government](https://en.wikipedia.org/wiki/Government)
 - Wikipedia - [Political system](https://en.wikipedia.org/wiki/Political_system)
@@ -244,3 +203,54 @@ References:
 ### Oligarchies
 
 No modern countries are seen as oligarchies but some have dynamics that are related.
+
+## The structures of government
+
+Many governments use a tripartite government of three branches:
+
+- Legislative
+
+  - Creates the laws
+  - Controls budget
+
+- Judiciary
+
+  - Enforces the laws
+
+    - Are new legislative laws legal?
+    - Are executive actions legal?
+
+- Executive
+
+  - Guides the general direction of the government
+  - Runs the government based on the laws passed by the legislative
+
+In many countries, the government has a kind of
+[constitution](https://en.wikipedia.org/wiki/Constitution), a statement of its
+governing principles and philosophy.
+
+### The legislature
+
+### The judiciary
+
+### The executive
+
+## Systems of law
+
+Systems of law include:
+
+- Civil law
+- Common law
+- Customary law
+- Muslim law
+- Jewish law
+
+[![A map showing different combinations of legal systems around the world](https://upload.wikimedia.org/wikipedia/commons/9/92/Map_of_the_Legal_systems_of_the_world_%28en%29.png)](<https://commons.wikimedia.org/wiki/File:Map_of_the_Legal_systems_of_the_world_(en).png>)
+
+References:
+
+- Wikipedia - [Legal system](https://en.wikipedia.org/wiki/Legal_system)
+
+## Systems of economics
+
+## Systems of voting
