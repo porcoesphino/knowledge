@@ -21,6 +21,61 @@ and the idea that elections are the will of the people which form the basis
 of the authority of government. There is a lot that can be discussed but most
 of it is tangential to the basics of how governments work.
 
+Although mostly tangential some quick context can be inferred from the political
+systems as categorised by social anthropologists:
+
+- Uncentralised systems
+
+  - Band society
+
+    - Small family group, no larger than an extended family or clan; it has been
+    defined as consisting of no more than 30 to 50 individuals.
+    - A band can cease to exist if only a small group walks out.
+
+  - Tribe
+
+    - Generally larger, consisting of many families. Tribes have more social
+    institutions, such as a chief or elders.
+    - More permanent than bands. Many tribes are subdivided into bands.
+
+- Centralized governments
+
+  - Chiefdom
+
+    - More complex than a tribe or a band society, and less complex than a state
+    or a civilization
+
+    - Characterized by pervasive inequality and centralization of authority.
+    - A single lineage/family of the elite class becomes the ruling elite of the
+    chiefdom
+    - Complex chiefdoms have two or even three tiers of political hierarchy.
+    - An autonomous political unit comprising a number of villages or communities
+    under the permanent control of a paramount chief
+
+  - Sovereign state
+
+    - A sovereign state is a state with a permanent population, a defined
+    territory, a government and the capacity to enter into relations with other
+    sovereign states.
+
+- Supranational union
+
+  - Supranational political systems are created by independent nations to reach
+  a common goal or gain strength from forming an alliance.
+
+- Empires
+
+  - Widespread states consisting of people of different ethnicities under a
+  single rule.
+
+- Leagues
+
+  - Leagues are international organizations composed of states coming together
+  for a single common purpose. In this way, leagues are different from empires,
+  as they only seek to fulfil a single goal. Often leagues are formed on the
+  brink of a military or economic downfall. Meetings and hearings are conducted
+  in a neutral location with representatives of all involved nations present.
+
 A system of government that has citizens give up unwanted freedoms to protect
 the desired freedoms has benefits. Some forms of government take the position
 that some of these freedoms are natural inalienable rights, like the US
@@ -31,8 +86,9 @@ some commonalities that will be the focus of this document.
 
 References:
 
-- Wikipedia - [Social contract theory](https://en.wikipedia.org/wiki/Social_contract)
 - Khan academy - [US government and civics: The social contract](https://www.youtube.com/watch?v=fI1t0dY5zoc)
+- Wikipedia - [Social contract theory](https://en.wikipedia.org/wiki/Social_contract)
+- Wikipedia - [Political system](https://en.wikipedia.org/wiki/Political_system)
 
 ## The structures of government
 
