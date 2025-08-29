@@ -145,7 +145,9 @@ along this spectrum, like:
 [monarchies](https://en.wikipedia.org/wiki/Monarchy),
 [theocracies](https://en.wikipedia.org/wiki/Theocracy),
 [oligarchies](https://en.wikipedia.org/wiki/Oligarchy), and
-[military juntas](https://en.wikipedia.org/wiki/Military_junta).
+[military juntas](https://en.wikipedia.org/wiki/Military_junta). The only countries
+that don't claim to be a type of democracy are Saudi Arabia, Oman, the UAE,
+Qatar, Brunei, Afghanistan, and the Vatican ([see this map](https://en.wikipedia.org/wiki/List_of_forms_of_government#/media/File:Democracy_claims.svg)).
 
 - Wikipedia - [Government](https://en.wikipedia.org/wiki/Government)
 - Wikipedia - [Political system](https://en.wikipedia.org/wiki/Political_system)
