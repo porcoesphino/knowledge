@@ -148,47 +148,47 @@ democracy.
 - Parliamentary systems: Head of government is elected or nominated by and
 accountable to the legislature.
 
-  - ![colour for legend](https://placehold.co/15x15/db060b/svg)
+  - ![colour for legend](https://placehold.co/15x15/db060b/db060b/svg)
     Constitutional monarchy with a ceremonial monarch
-  - ![colour for legend](https://placehold.co/15x15/f4a637/svg)
+  - ![colour for legend](https://placehold.co/15x15/f4a637/f4a637/svg)
     Parliamentary republic with a ceremonial president
-  - ![colour for legend](https://placehold.co/15x15/4db264/svg)
+  - ![colour for legend](https://placehold.co/15x15/4db264/4db264/svg)
     Parliamentary republic with an executive president
 
 - Presidential system: Head of government (president) is popularly elected and
 independent of the legislature.
 
-  - ![colour for legend](https://placehold.co/15x15/1965b0/svg)
+  - ![colour for legend](https://placehold.co/15x15/1965b0/1965b0/svg)
     Presidential republic
 
 - Hybrid systems:
 
-  - ![colour for legend](https://placehold.co/15x15/f7f057/svg)
+  - ![colour for legend](https://placehold.co/15x15/f7f057/f7f057/svg)
     Semi-presidential republic: Executive president is independent of the
     legislature; head of government is appointed by the president and is
     accountable to the legislature.
-  - ![colour for legend](https://placehold.co/15x15/7bb0df/svg)
+  - ![colour for legend](https://placehold.co/15x15/7bb0df/7bb0df/svg)
     Assembly-independent republic: Head of government (president or directory)
     is elected by the legislature, but is not accountable to it.
 
 - Other systems:
-  - ![colour for legend](https://placehold.co/15x15/90c886/svg)
+  - ![colour for legend](https://placehold.co/15x15/90c886/90c886/svg)
     Theocratic republic: Supreme Leader is both head of state and church and
     holds significant executive and legislative power
-  - ![colour for legend](https://placehold.co/15x15/ae76a3/svg)
+  - ![colour for legend](https://placehold.co/15x15/ae76a3/ae76a3/svg)
     Semi-constitutional monarchy: Monarch holds significant executive or
     legislative power.
-  - ![colour for legend](https://placehold.co/15x15/882e72/svg)
+  - ![colour for legend](https://placehold.co/15x15/882e72/882e72/svg)
     Absolute monarchy: Monarch has unlimited power.
-  - ![colour for legend](https://placehold.co/15x15/71190e/svg)
+  - ![colour for legend](https://placehold.co/15x15/71190e/71190e/svg)
     One-party state: Power is constitutionally linked to a single political party.
-  - ![colour for legend](https://placehold.co/15x15/cae1ac/svg)
+  - ![colour for legend](https://placehold.co/15x15/cae1ac/cae1ac/svg)
     Military junta: Committee of military leaders controls the government;
     constitutional provisions are suspended.
-  - ![colour for legend](https://placehold.co/15x15/777777/svg)
+  - ![colour for legend](https://placehold.co/15x15/777777/777777/svg)
     Governments with no constitutional basis: No constitutionally defined basis
     to current regime, i.e., provisional governments or Islamic theocracies.
-  - ![colour for legend](https://placehold.co/15x15/c0c0c0/svg)
+  - ![colour for legend](https://placehold.co/15x15/c0c0c0/c0c0c0/svg)
     Dependent territories or places without governments
 
 References:
@@ -215,12 +215,13 @@ References:
 
 ### Authoritarian regimes
 
-An authoritarian regime has a concentration of power in a leader or an elite
-not constitutionally responsible to the people". Unlike totalitarian states,
-they will allow social and economic institutions not under governmental
-control, and tend to rely on passive mass acceptance rather than active popular
-support. [Juan Linz](https://en.wikipedia.org/wiki/Juan_José_Linz)
-in [*An Authoritarian Regime: Spain*](https://www.academia.edu/39203506/I_B_33_An_Authoritarian_Regime_The_Case_of_Spain)
+An [authoritarian](https://en.wikipedia.org/wiki/Authoritarianism) regime has a
+concentration of power in a leader or an elite not constitutionally responsible
+to the people". Unlike totalitarian states, they will allow social and economic
+institutions not under governmental control, and tend to rely on passive mass
+acceptance rather than active popular support.
+[Juan Linz](https://en.wikipedia.org/wiki/Juan_José_Linz) in
+[*An Authoritarian Regime: Spain*](https://www.academia.edu/39203506/I_B_33_An_Authoritarian_Regime_The_Case_of_Spain)
 defined authoritarianism as possessing four qualities:
 
 - Limited political pluralism, which is achieved with constraints on the
