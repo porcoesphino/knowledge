@@ -1,6 +1,6 @@
 # A primer on governments
 
-## The purpose of government
+## Why governments exist
 
 In the absence of political order and law, everyone would have unlimited
 natural freedoms, including the freedom to plunder, rape and murder. A way to
@@ -8,21 +8,51 @@ avoid these negatives is for people to give up some freedoms to the state in
 exchange for security. For example, most citizens are do not have the freedom to
 commit extreme violence and most states are granted the ability to imprison
 people, ideally those that have infringed on citizens freedoms. This is known
-as the [social contract theory](https://en.wikipedia.org/wiki/Social_contract).
+as the [social contract theory](https://en.wikipedia.org/wiki/Social_contract)
+and has been used as a justification for why governments should exist.
+
+People are born into these governments are entering systems that have power
+structures they they may have never consented to and this is both an issue
+philosophically and framing that can be used to measure a government against.
+This is part of [consent of the governed](https://en.wikipedia.org/wiki/Consent_of_the_governed)
+theory with one perspective being that elections are the will of the people
+and that forms the basis of both consent and the authority of government.
+
+Another framing is through [realism](https://en.wikipedia.org/wiki/Realism_(international_relations))
+from international relations theory and there world politics is thought of as
+an enduring competition among self-interested states jostling for power and
+positioning; and then a government is any system that allows states that
+continue to exist or increase in power. Unlike the earlier framings, this
+accounts for governments that are less ideal but do occur, like
+[tyrannies](https://en.wikipedia.org/wiki/Tyrant).
 
 This is a pretty simplified, academic view and both philosophy and political
-science cover a lot more ground. A dominant individual may simply take control
-of a small group ignoring any reasoned argument like the above. Most governments
-come with a history and that includes biases. This can be taken so far to include
-our basal animal biology. People are born into these governments that have power
-systems they don't consent to. This last point is covered somewhat in
-[consent of the governed](https://en.wikipedia.org/wiki/Consent_of_the_governed)
-and the idea that elections are the will of the people which form the basis
-of the authority of government. There is a lot that can be discussed but most
-of it is tangential to the basics of how governments work.
+science cover a lot more ground. Most governments come with a history and that
+includes biases. This can be taken so far to include our basal animal biology.
+A system of government that has citizens give up unwanted freedoms to protect
+the desired freedoms has benefits. Some forms of government take the position
+that some of these freedoms are natural inalienable rights, like the US
+[Declaration of Independence](https://www.archives.gov/founding-docs/declaration-transcript).
+Exactly what is allowed varies between countries and has far too much variation
+for a short document. The systems that exists to make these decisions have
+some commonalities and these will be the focus of this document.
 
-Although mostly tangential some quick context can be inferred from the political
-systems as categorised by social anthropologists:
+References:
+
+- Khan academy - [US government and civics: The social contract](https://www.youtube.com/watch?v=fI1t0dY5zoc)
+- Wikipedia - [Social contract theory](https://en.wikipedia.org/wiki/Social_contract)
+
+## Political systems
+
+Political systems define the process for making official government decisions. They usually comprise the governmental legal and economic system, social and cultural system, and other state and government specific systems. In reality this is a very complex system involving the questions of who should have authority and what the government influence on its people and economy should be.
+
+Besides the ranking below there are some other spectrums that can be used:
+
+- a social-cultural axis relative to the [liberal values](https://en.wikipedia.org/wiki/Liberal_values)
+
+### Social anthropological political systems
+
+Political systems as categorised by social anthropologists:
 
 - Uncentralised systems
 
@@ -76,18 +106,10 @@ systems as categorised by social anthropologists:
   brink of a military or economic downfall. Meetings and hearings are conducted
   in a neutral location with representatives of all involved nations present.
 
-A system of government that has citizens give up unwanted freedoms to protect
-the desired freedoms has benefits. Some forms of government take the position
-that some of these freedoms are natural inalienable rights, like the US
-[Declaration of Independence](https://www.archives.gov/founding-docs/declaration-transcript).
-Exactly what is allowed varies between countries and has far too much variation
-for a short document. How the decisions are made to make these decisions has
-some commonalities that will be the focus of this document.
+This document focuses on *sovereign states*.
 
 References:
 
-- Khan academy - [US government and civics: The social contract](https://www.youtube.com/watch?v=fI1t0dY5zoc)
-- Wikipedia - [Social contract theory](https://en.wikipedia.org/wiki/Social_contract)
 - Wikipedia - [Political system](https://en.wikipedia.org/wiki/Political_system)
 
 ## The structures of government
