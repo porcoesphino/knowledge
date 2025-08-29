@@ -65,6 +65,18 @@ governing principles and philosophy.
 
 ### The executive
 
+## Systems of law
+
+Systems of law include:
+
+- Civil law
+- Common law
+- Customary law
+- Muslim law
+- Jewish law
+
+[![A map showing different combinations of legal systems around the world](https://upload.wikimedia.org/wikipedia/commons/9/92/Map_of_the_Legal_systems_of_the_world_%28en%29.png)](<https://commons.wikimedia.org/wiki/File:Map_of_the_Legal_systems_of_the_world_(en).png>)
+
 ## The different political systems
 
 Modern political systems are often thought of on a spectrum from:
