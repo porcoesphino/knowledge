@@ -112,6 +112,57 @@ References:
 
 - Wikipedia - [Political system](https://en.wikipedia.org/wiki/Political_system)
 
+## The structures of government
+
+Many governments use a tripartite government of three branches:
+
+- Legislative
+
+  - Creates the laws
+  - Controls budget
+
+- Judiciary
+
+  - Enforces the laws
+
+    - Are new legislative laws legal?
+    - Are executive actions legal?
+
+- Executive
+
+  - Guides the general direction of the government
+  - Runs the government based on the laws passed by the legislative
+
+In many countries, the government has a kind of
+[constitution](https://en.wikipedia.org/wiki/Constitution), a statement of its
+governing principles and philosophy.
+
+### The legislature
+
+### The judiciary
+
+### The executive
+
+## Systems of law
+
+Systems of law include:
+
+- Civil law
+- Common law
+- Customary law
+- Muslim law
+- Jewish law
+
+[![A map showing different combinations of legal systems around the world](https://upload.wikimedia.org/wikipedia/commons/9/92/Map_of_the_Legal_systems_of_the_world_%28en%29.png)](<https://commons.wikimedia.org/wiki/File:Map_of_the_Legal_systems_of_the_world_(en).png>)
+
+References:
+
+- Wikipedia - [Legal system](https://en.wikipedia.org/wiki/Legal_system)
+
+## Systems of economics
+
+## Systems of voting
+
 ## Modern political systems
 
 According to professor [Juan José Linz](https://en.wikipedia.org/wiki/Juan_José_Linz)
@@ -120,8 +171,8 @@ there are three main types of political systems today:
 [totalitarian regimes](https://en.wikipedia.org/wiki/Totalitarianism) regimes
 and, sitting between these two,
 [authoritarian regimes](https://en.wikipedia.org/wiki/Authoritarianism). There
-are a number of hybrid regimes including some that can lie in different places
-along this spectrum, like:
+are a number of hybrid regimes. There are some categories that map cleanly onto
+this spectrum that often use different names, like:
 [monarchies](https://en.wikipedia.org/wiki/Monarchy),
 [theocracies](https://en.wikipedia.org/wiki/Theocracy),
 [oligarchies](https://en.wikipedia.org/wiki/Oligarchy), and
@@ -213,6 +264,51 @@ References:
 
 ### Democracies
 
+In a minimalist definition of
+[democracy](https://en.wikipedia.org/wiki/Democracy), rulers are elected through
+competitive elections. Throughout history, one can find evidence of direct
+democracy, in which communities make decisions through popular assembly. Today,
+the dominant form of democracy is representative democracy, where citizens elect
+government officials to govern on their behalf such as in a parliamentary or
+presidential democracy. In the common variant of liberal democracy, the powers
+of the majority are exercised within the framework of a representative
+democracy, but a constitution and supreme court limit the majority and protect
+the minority — usually through securing the enjoyment by all of certain
+individual rights.
+
+Democracy has it's flaws as summarised by [Winston Churchill's remark](https://api.parliament.uk/historic-hansard/commons/1947/nov/11/parliament-bill#column_206)
+that "No one pretends that democracy is perfect or all-wise. Indeed, it has been
+said that democracy is the worst form of government except all those other forms
+that have been tried from time to time."
+
+#### Basic forms
+
+- [Direct democracy](https://en.wikipedia.org/wiki/Direct_democracy) — the
+  people have the direct authority in decision making. Modern examples include
+  [referendums](https://en.wikipedia.org/wiki/Referendum) and changes to the constitution.
+- [Semi-direct] - includes when lower governments are direct democracies or when
+  citizens have more ability to trigger a referendum.
+- [Lot system] - when important governmental and administrative tasks are
+  performed by citizens picked from a lottery, like in
+  [Athenian democracy](https://en.wikipedia.org/wiki/Athenian_democracy)
+- [Representative democracy](https://en.wikipedia.org/wiki/Representative_democracy)
+  — the people choose governing officials through
+  elections that make decisions on their behalf.
+- [Parliamentary](https://en.wikipedia.org/wiki/Parliamentary_system) - a
+  representative democracy where the executive branch of government is
+  appointed by and can be dismissed by the legislative parliament that was
+  elected by the people.
+- [Presidential](https://en.wikipedia.org/wiki/Presidential_system) - a
+  representative democracy where the president, the head of the executive branch,
+  is elected directly by the people. The legislature often has limited ability
+  to remove a president from office. Elections typically have a fixed date and
+  are not easily changed. The president has direct control over the cabinet,
+  specifically appointing the cabinet members.
+
+References:
+
+- Wikipedia - [Democracy](https://en.wikipedia.org/wiki/Democracy)
+
 ### Authoritarian regimes
 
 An [authoritarian](https://en.wikipedia.org/wiki/Authoritarianism) regime has a
@@ -276,53 +372,27 @@ References:
 
 No modern countries are seen as oligarchies but some have dynamics that are related.
 
-## The structures of government
+<!-- ## Requirements for democracy to function well -->
 
-Many governments use a tripartite government of three branches:
+<!-- ## Democratic backsliding -- >
 
-- Legislative
+<!--
+Steven Levitsky says: “It's not up to voters to defend a democracy. That’s asking far, far too much of voters, to cast their ballot on the basis of some set of abstract principles or procedures. With the exception of a handful of cases, voters never, ever — in any society, in any culture — prioritize democracy over all else. Individual voters worry about much more mundane things, as is their right. It is up to élites and institutions to protect democracy — not voters.”
+https://www.newyorker.com/podcast/the-new-yorker-radio-hour/the-authors-of-how-democracies-die-on-the-new-democratic-minority
+-->
 
-  - Creates the laws
-  - Controls budget
+## Nation states
 
-- Judiciary
+### England
 
-  - Enforces the laws
+### USA
 
-    - Are new legislative laws legal?
-    - Are executive actions legal?
+### Australia
 
-- Executive
+### Canada
 
-  - Guides the general direction of the government
-  - Runs the government based on the laws passed by the legislative
+### Japan
 
-In many countries, the government has a kind of
-[constitution](https://en.wikipedia.org/wiki/Constitution), a statement of its
-governing principles and philosophy.
+### Korea
 
-### The legislature
-
-### The judiciary
-
-### The executive
-
-## Systems of law
-
-Systems of law include:
-
-- Civil law
-- Common law
-- Customary law
-- Muslim law
-- Jewish law
-
-[![A map showing different combinations of legal systems around the world](https://upload.wikimedia.org/wikipedia/commons/9/92/Map_of_the_Legal_systems_of_the_world_%28en%29.png)](<https://commons.wikimedia.org/wiki/File:Map_of_the_Legal_systems_of_the_world_(en).png>)
-
-References:
-
-- Wikipedia - [Legal system](https://en.wikipedia.org/wiki/Legal_system)
-
-## Systems of economics
-
-## Systems of voting
+### China
