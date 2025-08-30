@@ -39,8 +39,8 @@ some commonalities and these will be the focus of this document.
 
 References:
 
-- Khan academy - [US government and civics: The social contract](https://www.youtube.com/watch?v=fI1t0dY5zoc)
-- Wikipedia - [Social contract theory](https://en.wikipedia.org/wiki/Social_contract)
+- Khan academy — [US government and civics: The social contract](https://www.youtube.com/watch?v=fI1t0dY5zoc)
+- Wikipedia — [Social contract theory](https://en.wikipedia.org/wiki/Social_contract)
 
 ## Political systems
 
@@ -110,7 +110,7 @@ This document focuses on *sovereign states*.
 
 References:
 
-- Wikipedia - [Political system](https://en.wikipedia.org/wiki/Political_system)
+- Wikipedia — [Political system](https://en.wikipedia.org/wiki/Political_system)
 
 ## The structures of government
 
@@ -159,7 +159,7 @@ Systems of law include:
 
 References:
 
-- Wikipedia - [Legal system](https://en.wikipedia.org/wiki/Legal_system)
+- Wikipedia — [Legal system](https://en.wikipedia.org/wiki/Legal_system)
 
 ## Systems of economics
 
@@ -184,9 +184,9 @@ Qatar, Brunei, Afghanistan, and the Vatican ([see this map](https://en.wikipedia
 
 References:
 
-- Wikipedia - [Government](https://en.wikipedia.org/wiki/Government)
-- Wikipedia - [Political system](https://en.wikipedia.org/wiki/Political_system)
-- Wikipedia - [List of forms of government](https://en.wikipedia.org/wiki/List_of_forms_of_government)
+- Wikipedia — [Government](https://en.wikipedia.org/wiki/Government)
+- Wikipedia — [Political system](https://en.wikipedia.org/wiki/Political_system)
+- Wikipedia — [List of forms of government](https://en.wikipedia.org/wiki/List_of_forms_of_government)
 
 ### World's states colored by systems of government
 
@@ -246,7 +246,7 @@ independent of the legislature.
 
 References:
 
-- Wikipedia image - [Forms of government](https://en.wikipedia.org/wiki/File:Forms_of_government.svg)
+- Wikipedia image — [Forms of government](https://en.wikipedia.org/wiki/File:Forms_of_government.svg)
 
 ### Totalitarian regimes
 
@@ -262,7 +262,7 @@ being complete control.
 
 References:
 
-- Wikipedia - [Totalitarianism](https://en.wikipedia.org/wiki/Totalitarianism)
+- Wikipedia — [Totalitarianism](https://en.wikipedia.org/wiki/Totalitarianism)
 
 ### Authoritarian regimes
 
@@ -295,14 +295,14 @@ torture and disappearances. But as
 
 References:
 
-- Wikipedia - [Authoritarianism](https://en.wikipedia.org/wiki/Authoritarianism)
+- Wikipedia — [Authoritarianism](https://en.wikipedia.org/wiki/Authoritarianism)
 
 #### Related terms
 
-- [Autocracy](https://en.wikipedia.org/wiki/Autocracy) - A form of government
+- [Autocracy](https://en.wikipedia.org/wiki/Autocracy) — A form of government
   in which absolute power is held by the head of state and government. ie.
   Dictatorships and some forms of monarchy.
-- [Dictatorship](https://en.wikipedia.org/wiki/Dictatorship) - A form of
+- [Dictatorship](https://en.wikipedia.org/wiki/Dictatorship) — A form of
   government which is characterized by a leader, or a group of leaders, who
   hold governmental powers with few to no limitations.
   > Note: The term comes from temporary extended powers in the Roman Republic
@@ -315,10 +315,10 @@ References:
 
 References:
 
-- Wikipedia - [Authoritarianism > Similar_terms](https://en.wikipedia.org/wiki/Authoritarianism#Similar_terms)
-- Wikipedia - [Dictatorship](https://en.wikipedia.org/wiki/Dictatorship)
-- Wikipedia - [Autocracy](https://en.wikipedia.org/wiki/Autocracy)
-- The American Heritage® Dictionary - [fascism](https://ahdictionary.com/word/search.html?q=fascism)
+- Wikipedia — [Authoritarianism > Similar_terms](https://en.wikipedia.org/wiki/Authoritarianism#Similar_terms)
+- Wikipedia — [Dictatorship](https://en.wikipedia.org/wiki/Dictatorship)
+- Wikipedia — [Autocracy](https://en.wikipedia.org/wiki/Autocracy)
+- The American Heritage® Dictionary — [fascism](https://ahdictionary.com/word/search.html?q=fascism)
 
 ### Democracies
 
@@ -344,9 +344,9 @@ that have been tried from time to time."
 - [Direct democracy](https://en.wikipedia.org/wiki/Direct_democracy) — the
   people have the direct authority in decision making. Modern examples include
   [referendums](https://en.wikipedia.org/wiki/Referendum) and changes to the constitution.
-- [Semi-direct] - includes when lower governments are direct democracies or when
+- Semi-direct — includes when lower governments are direct democracies or when
   citizens have more ability to trigger a referendum.
-- [Lot system] - when important governmental and administrative tasks are
+- Lot system — when important governmental and administrative tasks are
   performed by citizens picked from a lottery, like in
   [Athenian democracy](https://en.wikipedia.org/wiki/Athenian_democracy)
 - [Representative democracy](https://en.wikipedia.org/wiki/Representative_democracy)
@@ -355,7 +355,7 @@ that have been tried from time to time."
 
 References:
 
-- Wikipedia - [Democracy](https://en.wikipedia.org/wiki/Democracy)
+- Wikipedia — [Democracy](https://en.wikipedia.org/wiki/Democracy)
 
 ##### Parliamentary democracies
 
