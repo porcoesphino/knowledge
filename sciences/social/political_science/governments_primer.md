@@ -143,7 +143,99 @@ governing principles and philosophy.
 
 ### The executive
 
-## The levels of government
+## Levels of government
+
+Governments have a national level that organises things like treaties with
+other countries or armies. They also have some method of delegating smaller
+decisions to more local area, like when deciding where to build a local kindergarten.
+Often this results in some split like:
+
+- Federal
+- Regional (eg. provinces, states, territories, etc.)
+- County / Shire
+- City / Town
+- Suburb
+
+This is sometimes called [Multi-level governance](https://en.wikipedia.org/wiki/Multi-level_governance).
+The exact splits vary from country to country but here is a breakdown of how
+this works in Australia as an example of the general principle:
+
+- Federal
+
+  - international and Australian trade and commerce
+  - defence
+  - banking and insurance
+  - foreign policy
+  - citizenship
+  - taxation
+  - pensions
+  - census and statistics
+  - welfare payments
+  - currency
+  - national employment conditions
+  - marriage and divorce
+  - immigration
+
+- State and territory
+
+  - schools
+  - hospitals
+  - roads and railways
+  - public transport
+  - utilities such as electricity and water supply
+  - mining
+  - agriculture
+  - forests
+  - community services
+  - consumer affairs
+  - police
+  - prisons
+  - ambulance services
+
+- Local
+
+  - local roads, footpaths, cycle ways, street signage and lighting
+  - waste management, including rubbish collection and recycling
+  - parking
+  - recreational facilities such as parks, sports fields and swimming pools
+  - cultural facilities, including libraries, art galleries and museums
+  - services such as childcare and aged care
+  - sewerage
+  - town planning
+  - building approvals and inspections
+  - land and coast care programs
+  - pet control
+
+<details>
+  <summary>Why use Australia as the example?</summary>
+  <p>
+  While looking for an authoritative source there was a lot of noise in the
+  internet search with a lot of websites being from questionable sources
+  (often companies offering education as a service but the quality was tough to
+  quickly rate), giving partial information or being complicated. It turned out
+  that adding a single keyword like "UK", or "Australia" cleaned up results and
+  a quick scan ended with a page that gave a nice summary of the Australian system
+  that could be used to demonstrate the general idea and came straight from that
+  government. These separations are also more clearly stated in the Australian
+  constitution, for example some is defined in [Chapter 1, Part 5, Section 51](https://ausconstitution.peo.gov.au/chapter-i_part-v_powers-of-the-parliament.html#chapter-01_part-05_51).
+  </p>
+</details>
+<br>
+
+Exactly how these levels of government interact varies across a spectrum with
+most countries being a mix of:
+
+- [Unitary state](https://en.wikipedia.org/wiki/Unitary_state) - More
+  centralised and top down.
+- [Federalism](https://en.wikipedia.org/wiki/Federalism) - More more
+  decentralised and bottom up.
+
+References:
+
+- Parliamentary Education Office of the Australian Government -
+  [Three levels of government: governing Australia](https://peo.gov.au/understand-our-parliament/how-parliament-works/three-levels-of-government/three-levels-of-government-governing-australia)
+- LawHelp.org - [The Differences between Federal, State, and Local Laws](https://www.lawhelp.org/resource/the-differences-between-federal-state-and-loc)
+- Britannica - [Constitutional law > Unitary and federal systems](https://www.britannica.com/topic/constitutional-law/Unitary-and-federal-systems)
 
 ## Systems of law
 
