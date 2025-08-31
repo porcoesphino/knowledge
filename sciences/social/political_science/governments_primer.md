@@ -143,6 +143,13 @@ governing principles and philosophy.
 
 ### The executive
 
+### Checks and balances
+
+References:
+
+- Wikipedia - [Separation of powers under the United States Constitution >
+  Checks and balances](https://en.wikipedia.org/wiki/Separation_of_powers_under_the_United_States_Constitution#Checks_and_balances)
+
 ## Levels of government
 
 Governments have a national level that organises things like treaties with
