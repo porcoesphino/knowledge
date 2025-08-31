@@ -5,15 +5,15 @@
 In the absence of political order and law, everyone would have unlimited
 natural freedoms, including the freedom to plunder, rape and murder. A way to
 avoid these negatives is for people to give up some freedoms to the state in
-exchange for security. For example, most citizens are do not have the freedom to
+exchange for security. For example, most citizens do not have the freedom to
 commit extreme violence and most states are granted the ability to imprison
-people, ideally those that have infringed on citizens freedoms. This is known
+people, ideally those that have infringed on other citizens freedoms. This is known
 as the [social contract theory](https://en.wikipedia.org/wiki/Social_contract)
-and has been used as a justification for why governments should exist.
+and is sometimes extended beyond why governments are important into the justification for why governments should exist.
 
-People are born into these governments are entering systems that have power
-structures they they may have never consented to and this is both an issue
-philosophically and framing that can be used to measure a government against.
+People born into these governments are entering systems that have power
+structures that they may have never consented to and this is both an issue
+philosophically and a framing that can be used to measure a government against.
 This is part of [consent of the governed](https://en.wikipedia.org/wiki/Consent_of_the_governed)
 theory with one perspective being that elections are the will of the people
 and that forms the basis of both consent and the authority of government.
@@ -21,13 +21,13 @@ and that forms the basis of both consent and the authority of government.
 Another framing is through [realism](https://en.wikipedia.org/wiki/Realism_(international_relations))
 from international relations theory and there world politics is thought of as
 an enduring competition among self-interested states jostling for power and
-positioning; and then a government is any system that allows states that
+positioning; and then a government is any system that allows states to
 continue to exist or increase in power. Unlike the earlier framings, this
 accounts for governments that are less ideal but do occur, like
 [tyrannies](https://en.wikipedia.org/wiki/Tyrant).
 
 This is a pretty simplified, academic view and both philosophy and political
-science cover a lot more ground. Most governments come with a history and that
+science cover a lot more ground. Most governments also come with a history and that
 includes biases. This can be taken so far to include our basal animal biology.
 A system of government that has citizens give up unwanted freedoms to protect
 the desired freedoms has benefits. Some forms of government take the position
