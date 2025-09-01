@@ -397,3 +397,112 @@ the battle for Ukraine](https://www.eiu.com/n/wp-content/uploads/2023/02/Democra
       - 1: Low.
       - 0.5: Moderate.
       - 0: High.
+
+## Freedom in the World (2025)
+
+- Wikipedia - [Freedom in the World](https://en.wikipedia.org/wiki/Freedom_in_the_World)
+- Freedom House - [Methodology](https://freedomhouse.org/reports/freedom-world/freedom-world-research-methodology)
+
+### Scoring
+
+<https://freedomhouse.org/reports/freedom-world/freedom-world-research-methodology>
+
+There are 25 questions asked and each is awarded 0 to 4 points with 0
+representing the smallest degree of freedom and 4 the greatest degree of freedom.
+The questions are split like so:
+
+- Political rights (10 total)
+
+  - Electoral Process (3),
+  - Political Pluralism and Participation (4), and
+  - Functioning of Government (3).
+
+- Civil liberties (15 total)
+
+  - Freedom of Expression and Belief (4 questions),
+  - Associational and Organizational Rights (3),
+  - Rule of Law (4), and
+  - Personal Autonomy and Individual Rights (4).
+
+The political rights section also contains an additional discretionary question
+addressing forced demographic change with the points subtracted.
+
+### Questions
+
+- Political rights
+
+  - Electoral Process
+
+    1. Was the current head of government or other chief national authority
+       elected through free and fair elections?
+    2. Were the current national legislative representatives elected through
+       free and fair elections?
+    3. Are the electoral laws and framework fair, and are they implemented
+       impartially by the relevant election management bodies?
+
+  - Political Pluralism and Participation
+
+    1. Do the people have the right to organize in different political parties
+       or other competitive political groupings of their choice, and is the
+       system free of undue obstacles to the rise and fall of these competing
+       parties or groupings?
+    2. Is there a realistic opportunity for the opposition to increase its
+       support or gain power through elections?
+    3. Are the people’s political choices free from domination by forces that
+       are external to the political sphere, or by political forces that employ
+       extrapolitical means?
+    4. Do various segments of the population (including ethnic, racial, religious,
+       gender, LGBT+, and other relevant groups) have full political rights and
+       electoral opportunities?
+
+  - Functioning of Government
+
+    1. Do the freely elected head of government and national legislative
+       representatives determine the policies of the government?
+    2. Are safeguards against official corruption strong and effective?
+    3. Does the government operate with openness and transparency?
+
+  - Additional Discretionary Political Rights Question
+
+    - Is the government or occupying power deliberately changing the ethnic
+      composition of a country or territory so as to destroy a culture or tip
+      the political balance in favor of another group?
+
+- Civil liberties
+
+  - Freedom of Expression and Belief
+
+    1. Are there free and independent media?
+    2. Are individuals free to practice and express their religious faith or
+       nonbelief in public and private?
+    3. Is there academic freedom, and is the educational system free from
+       extensive political indoctrination?
+    4. Are individuals free to express their personal views on political or
+       other sensitive topics without fear of surveillance or retribution?
+
+  - Associational and Organizational Rights
+
+    1. Is there freedom of assembly?
+    2. Is there freedom for nongovernmental organizations, particularly those
+    that are engaged in human rights – and governance – related work?
+    3. Is there freedom for trade unions and similar professional or labor organizations?
+
+  - Rule of Law
+
+    1. Is there an independent judiciary?
+    2. Does due process prevail in civil and criminal matters?
+    3. Is there protection from the illegitimate use of physical force and
+       freedom from war and insurgencies?
+    4. Do laws, policies, and practices guarantee equal treatment of various
+       segments of the population?
+
+  - Personal Autonomy and Individual Rights
+
+    1. Do individuals enjoy freedom of movement, including the ability to change
+       their place of residence, employment, or education?
+    2. Are individuals able to exercise the right to own property and establish
+       private businesses without undue interference from state or nonstate actors?
+    3. Do individuals enjoy personal social freedoms, including choice of
+       marriage partner and size of family, protection from domestic violence,
+       and control over appearance?
+    4. Do individuals enjoy equality of opportunity and freedom from economic exploitation?
