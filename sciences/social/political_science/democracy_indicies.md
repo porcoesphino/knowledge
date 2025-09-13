@@ -194,8 +194,6 @@ the battle for Ukraine](https://www.eiu.com/n/wp-content/uploads/2023/02/Democra
 
 ### Scoring
 
-<https://freedomhouse.org/reports/freedom-world/freedom-world-research-methodology>
-
 There are 25 questions asked and each is awarded 0 to 4 points with 0
 representing the smallest degree of freedom and 4 the greatest degree of freedom.
 The questions are split like so:
@@ -298,6 +296,108 @@ addressing forced demographic change with the points subtracted.
 
 ## V-Dem Democracy Indices
 
-## Freedom in the World
+- *The Liberal Democracy Index*
 
-## Freedom in the World
+  - Electoral Democracy Index
+
+    - Suffrage (1)
+    - Elected  officials(16)
+    - Clean  elections (8)
+    - Freedom of association (6)
+    - Freedom of expression and  alternative sources  of information (9)
+  - Liberal Component Index
+    - Equality before the law  and individual liberty index (20)
+    - Judicial constraints on the  executive index (5)
+    - Legislative constraints  on the  executive index (4)
+- *The Electoral Democracy Index*
+  - Expanded freedom of expression index
+    - Government censorship effort – Media
+    - Government censorship effort – Internet
+    - Harassment of journalists
+    - Media self-censorship
+    - Media bias
+    - Print / broadcast media critical
+    - Print / broadcast media perspectives
+    - Freedom of discussion for men
+    - Freedom of discussion for women
+    - Freedom of academic and  cultural expression
+  - Freedom of association index
+    - Party ban
+    - Barriers to  parties
+    - Opposition parties autonomy
+    - Elections multiparty
+    - CSO entry and exit
+    - CSO repression
+    - Share of population with suffrage
+    - Percent of population  with suffrage
+  - Clean elections index
+    - EMB  autonomy
+    - EMB  capacity
+    - Election voter registry  Election vote buying
+    - Election other voting  irregularities
+    - Election government  intimidation
+    - Election other  electoral violence
+    - Election free and fair
+  - Elected officials index
+- *The Liberal Component Index*
+  - Equality before the law and individual liberty index
+    - Rigorous and impartial public administration
+    - Transparent laws with  predictable enforcement
+    - Access to justice for men
+    - Access to justice for women
+    - Property rights for men
+    - Property rights for women
+    - Freedom from torture
+    - Freedom from political killings
+    - Freedom from forced labor for men
+    - Freedom from forced labor for women
+    - Freedom of religion
+    - Freedom of foreign movement
+    - Freedom of domestic movement for men
+    - Freedom of domestic movement for women
+    - Judicial constraints on the executive index
+      - Executive respects  constitution
+      - Compliance with judiciary
+      - Compliance with high court
+      - High court independence
+      - Lower court independence
+    - Legislative constraints on the executive index
+      - Legislature questions officials in practice
+      - Executive oversight
+      - Legislature investigates  in practice l
+      - Legislature  opposition parties
+- *The Egalitarian Component Index*
+  - Equal protection index
+    - Social class equality in respect for civil liberties
+    - Social group equality in respect for civil liberties
+    - Weaker civil liberties  population
+    - Equal access index
+      - Power distributed by gender
+      - Power distributed by social group
+      - Power distributed by  socioeconomic position
+    - Equal distribution of resources index
+      - Encompassingness
+      - Means-tested vs.  universalistic welfare
+      - Educational equality
+      - Health equality
+- *The Participatory Component Index*
+  - Civil society participation index
+    - Candidate selection –  National / Local
+    - CSO consultation
+    - CSO participatory environment
+    - CSO womens participation
+  - Direct popular vote index
+    - Local government index
+    - Local government elected
+    - Local offices relative power
+    - Local government exists
+  - Regional government index
+    - Regional government elected
+    - Regional offices relative power
+    - Regional government exists
+- *The Deliberative Component Index*
+  - Reasoned justification
+  - Common good
+  - Respect counterarguments
+  - Range of consultation
+  - Engaged society
