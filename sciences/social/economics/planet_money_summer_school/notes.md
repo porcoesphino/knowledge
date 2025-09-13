@@ -69,3 +69,60 @@ economy-wide economic and production plans.
 A ***<!--c1::-->mixed economy*** includes attributes of a market economy and
 attributes of a planned economy.
 --- ---
+
+## Intro Econ 3: Profit and Cocaine
+
+--- --- ---
+***<!--c1::-->Inelastic demand*** - people want the product enough that even as
+prices get higher they will continue to buy the product and will not be scared
+off much. Coffee is relatively ***<!--c1::-->inelastic***, and that's why it's
+price is so large relative to a meal. This wasn't always the case, poor quality
+coffee is cheap. In tech, making swapping platforms hard helps keeps demand
+***<!--c1::-->inelastic***, like with
+an iPhone. So does lowering alternatives using litigation.
+--- ---
+--- --- ---
+Addictive substances like drugs don't have much of a supply change with
+demand, they are ***<!--c1::-->inelastic***. This means that making drugs illegal
+tends to make drug dealers more rich but does not lower drug use by much.
+--- ---
+
+## Intro Econ 4: Scarcity and Pistachios
+
+--- --- ---
+***<!--c1::-->Externalities*** - The side effects on people who are neither the
+buyers or sellers in the transaction.
+--- --- ---
+***<!--c1::-->Non-excludable*** - people cannot be easily excluded from using it.
+--- ---
+--- --- ---
+***<!--c1::-->Rivalrous*** - use by one person reduces its availability for others.
+--- ---
+--- ---
+***<!--c1::-->The tragedy of the commons*** - When there is a shared resource
+and it's in the best interest of individuals to consume that resource and deplete
+it to the point it's worse for all individual consumers. What is good for the
+individual at a given point in time is not what's good for the future of
+the group. An example is farmers with high profit, water consuming crops and
+individual wells that deplete an aquifer.
+--- ---
+--- --- ---
+Solutions to the tragedy of the commons are easier with smaller numbers, that have
+aligned interests and high trust or visible actions. Like with families or business
+improvement districts. Behaviour can be changed using:
+
+- ***<!--c1::-->Prices / Taxation*** - If a resource is free then consumption
+doesn't decrease.
+Adding a cost or tax can limit consumption. Like a carbon tax.
+- ***<!--c2::-->Quantities / Caps*** - Legislating a cap can limit overuse but
+this can have distributional issues deciding who gets what cap. Like limiting
+how much water people can draw based on recent rainfall, or a carbon cap. This
+can have distributional issues deciding who gets what.
+
+--- ---
+--- --- ---
+***<!--c1::-->Cap and trade*** - Since legislating a cap on resource use can
+have distributional issues, a trade system is added to allow consumers that can
+easily drop the resource use to trade with those that need more lead time. For
+example the carbon cap and trade proposals.
+--- ---
