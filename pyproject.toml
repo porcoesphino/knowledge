@@ -1,0 +1,16 @@
+[project]
+name = "Various scripts for markdown notes"
+version = "0.0.1"
+authors = [
+  { name="Bodey Baker", email="bodeybaker@gmail.com" },
+]
+description = "Scripts that are used for convenience when writing study notes in markdown."
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[tool.pyright]
+include = [".venv"]
+exclude = [".git"]
