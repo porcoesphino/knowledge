@@ -77,3 +77,60 @@ Solutions to the tragedy of the commons are easier with smaller numbers, that ha
 --- --- ---
 ***<!--c1::-->Cap*** and ***<!--c2::-->trade*** - Since legislating a ***<!--c1::-->cap*** on resource use can have distributional issues, a ***<!--c2::-->trade*** system is added to allow consumers that can easily drop the resource use to ***<!--c2::-->trade*** with those that need more lead time. For example the carbon ***<!--c1::-->cap*** and ***<!--c2::-->trade*** proposals.
 --- ---
+
+## Intro Econ 5: Trade and Santa
+
+- trade - the transfer of goods and services from one person or entity to another
+- tariff - a tax charged on goods as they pass between one country and another.
+- Deadweight loss. Examples
+
+  - A monopoly charging more than the free market equilibrium to increase their profits would exclude a number of customers and the economic benefit lost by these priced out customers is the deadweight loss.
+  - A subsidy causes consumers to by items that they have less economic benefits from than the real cost of production. This difference is the deadweight loss.
+  - A tax will increase the cost on a consumer, decreasing the profit to the producer, for some transactions this will be beyond break even. The productivity lost is the deadweight loss. This can be used to makeup for the cost of some externalities like with the sin tax on alcohol that aims to reduce consumption.
+
+- The deadweight loss from a tax is proportional to the square of the tax rate.
+- Advantages of tariffs
+
+  - A trade where consumers pay more in exchange for some domestic industries having some protection from other countries industries.
+  - Putting tariffs on specific products causes certain industries to cheer and this is politically beneficial but has flow on effects. For example, adding tariffs for steel imports gets support from the steel industry but increases the price of domestic steel with flow on effects to other industries, that may or may not be noticed.
+- Tariffs are often split around complex groupings to make different rates. This is often built around lobbying.
+- Tariffs often result in an industry of lawyers trying to make taxes lower. This is part of the deadweight loss.
+
+## Intro Econ 6: Taxes and Donald Duck
+
+- Taxes solve the problem of resource relocation, particularly for the services provided by government. There are various ways to do this, with different levels of efficiency.
+- Income tax - a tax imposed on individuals or entities based on the income or profits earned by them.
+- The US government under the [Articles of Confederation](https://en.wikipedia.org/wiki/Articles_of_Confederation) started funding with requisitions (requests for payments or supplies) from the states but quickly needed a larger more reliable source of income after they were unable to finance troops to put down [Shays' Rebellion](https://en.wikipedia.org/wiki/Shays%27s_Rebellion) or pay back the debts of the [American Revolution](https://en.wikipedia.org/wiki/American_Revolution). They started with tariffs but these decrease when you need them most, during wars, in part because your ports may be blockaded. The [American Civil War](https://en.wikipedia.org/wiki/American_Civil_War) was won by the north in part won because of its better ability to tax its citizens with an income tax.
+- Overhead/requirements for income tax in the US.
+  - Large admin to track how much people make, how much they should pay, and to enforce payment.
+  - Legality
+  - Popularity. They used Donald Duck, to explain income tax.
+- Early history: 9 CE China, Roman Empire. Mid 1800's began the modern transition to income tax, starting with the UK using it during war time.
+- The US used it during the Civil war but after the war it was declared unconstitutional. The sixteenth amendment allowed congress to levy an income tax.
+- When faith in government erodes then interest in paying tax erodes.
+- Disincentives to income tax
+
+  - People could invest time finding ways to lower their tax instead of earning.
+- Keeping taxes simple helps avoid loopholes
+- Taxes can be used to promote behaviour (like tax breaks for new homes) and discourage behaviour (like taxes for alcohol)
+- Overwithholding for tax makes now sense for direct economic rationale, but it does as a savings device, and viewing tax through this lens can offer other benefits.
+- Tax is often not seen as a civic duty for the benefits of society but tax avoidance can work as a measure of trust in the government.
+
+## Intro Econ 7: Advertising and Race
+
+Advertising
+Market segmentation
+Information problems
+
+## Intro Econ 8: Risk and Disaster
+
+- risk. probability of negative outcome. Cost of negative outcome.
+- opportunity cost
+- correlated risk
+- insures can't handle large correlated risks... like floods.
+- adverse selection
+- insurance wants to make sure they have the same info as the insured, otherwise maybe only the risky people buy it. They need a distribution of people.
+- moral hazard
+- insurers need to make sure that they don't insure things that will cause more risky behaviour
+- Insurance spreads the risk and costs across a pool so the lucky people can help fund the unlucky people.
+- Biologically humans are primed to care more about negatives and paying insurance removes many of the negatives in exchange for a consistent, known cost.
