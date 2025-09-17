@@ -12,5 +12,5 @@ classifiers = [
 ]
 
 [tool.pyright]
-include = [".venv"]
 exclude = [".git"]
+typeshedPaths = [".venv", "typings"]
