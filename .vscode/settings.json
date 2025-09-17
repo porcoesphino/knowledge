@@ -3,13 +3,19 @@
   "cSpell.words": [
     "anki",
     "apkg",
+    "Bodey",
     "cloze",
     "excludable",
     "extrapolitical",
     "genanki",
     "Overwithholding",
     "porcoesphino",
-    "Rivalrous"
+    "pyright",
+    "Rivalrous",
+    "typeshed",
+    "uncast",
+    "venv"
   ],
-  "markdown.validate.enabled": true
+  "markdown.validate.enabled": true,
+  "python.analysis.autoImportCompletions": true
 }
