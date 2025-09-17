@@ -37,11 +37,13 @@ The ***<!--c1::-->market*** balances out broad needs. The top of the organisatio
 <!--note::8-->
 Market failures
 
-- Market ***<!--c1::-->power*** can undermine competitive pressures. Like Amazon being a monopoly that can set prices that benefit them more.
+- [Market ***<!--c1::-->power***](https://en.wikipedia.org/wiki/Market_power) can undermine competitive pressures. Like Amazon being a monopoly that can set prices that benefit them more.
 - When there is low trust or information asymmetry, like buying a car from a used car salesman then product quality may ***<!--c2::-->degrade***. (See [The Market for Lemons](https://en.wikipedia.org/wiki/The_Market_for_Lemons))
-- When trading in cash is ***<!--c2::-->disgusting / unethical***. An example of this is organ trading for cash that would have problematic effects for some groups, like the poor.
+- When trading in cash is ***<!--c3::-->disgusting / unethical***. An example of this is organ trading for cash that would have problematic effects for some groups, like the poor.
 
 --- ---
+--- --- ---
+<!--note::19-->
 A ***<!--c1::-->market economy*** is an economic system where the production of goods is guided by supply and demand.
 --- ---
 --- --- ---
@@ -72,11 +74,11 @@ Addictive substances like drugs don't have much of a supply change with demand, 
 --- ---
 --- --- ---
 <!--note::14-->
-***<!--c1::-->Non-excludable*** - people cannot be easily excluded from using it.
+***<!--c1::-->Non-excludable*** - A label for a resource that people cannot be easily excluded from using.
 --- ---
 --- --- ---
 <!--note::15-->
-***<!--c1::-->Rivalrous*** - use by one person reduces its availability for others.
+***<!--c1::-->Rivalrous*** - A label for a resource that when used by one person will have reduced availability for others.
 --- ---
 --- --- ---
 <!--note::16-->
