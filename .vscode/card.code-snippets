@@ -1,0 +1,12 @@
+{
+	"Create markdown card": {
+		"scope": "markdown",
+		"prefix": ["---", "card"],
+		"body": [
+			"--- --- ---",
+			"***<!--c1::${1:hint}-->${2:cloze}***${3:text}",
+			"--- ---"
+		],
+		"description": "Create markdown SRS card"
+	}
+}
