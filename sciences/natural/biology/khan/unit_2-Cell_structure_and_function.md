@@ -1,5 +1,9 @@
 # Unit 2: Cell structure and function
 
+These are notes for [Unit 2: Cell structure and function](https://www.khanacademy.org/science/ap-biology/cell-structure-and-function) as part of the Khan Academy's [AP®︎/College Biology](https://www.khanacademy.org/science/ap-biology) course.
+
+> **TODO**: Take notes instead of lazily using old screenshots.
+
 ## Lesson 01: Cell structures and their functions
 
 ![alt text](imgs_to_sort/lesson_01_IMG_3446.PNG)
