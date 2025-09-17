@@ -13,4 +13,6 @@ classifiers = [
 
 [tool.pyright]
 exclude = [".git"]
-typeshedPaths = [".venv", "typings"]
+typeshedPaths = [".venv", ".venv/lib/python3.13/site-packages", "typings"]
+venvPath = ".venv"
+typeCheckingMode = "strict"
