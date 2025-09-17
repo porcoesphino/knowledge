@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""A utility to create an Anki deck from some markdown notes."""
 
 import argparse
 from dataclasses import dataclass
@@ -25,7 +26,7 @@ from mistletoe.block_tokenizer import FileWrapper
 from mistletoe.html_renderer import HtmlRenderer
 
 
-SQL_LITE_MAX_VALUE = 9223372036854775807
+SQL_LITE_MAX_INT = 9223372036854775807
 
 
 def validate_and_return_args():
@@ -65,37 +66,38 @@ def validate_and_return_args():
     )
 
     parser.add_argument(
-        "markdown_filename", help="the markdown file that will be processed"
+        "markdown_filename", help="the markdown file that will be processed."
     )
     parser.add_argument(
         "--print-anki",
         action="store_true",
-        help="Will print output of the anki parser for debugging.",
+        help="print the output of the anki parser for debugging.",
     )
     parser.add_argument(
         "--print-walk",
         action="store_true",
-        help="Will print the tokens from first to last in the document.",
+        help="print the tokens processed from first to last in the document.",
     )
     parser.add_argument("-v", "--verbose", action="store_true")
     parser.add_argument("-n", "--dry-run", action="store_true", help="Test what would happen")
 
-    parsed_args = parser.parse_args()
+    args_for_validation = parser.parse_args()
 
-    if not os.path.exists(parsed_args.markdown_filename):
+    if not os.path.exists(args_for_validation.markdown_filename):
         parser.error(
-            f"The markdown file {parsed_args.markdown_filename} does not exist!"
+            f"The markdown file {args_for_validation.markdown_filename} does not exist!"
         )
 
-    if not parsed_args.markdown_filename.endswith(".md"):
+    if not args_for_validation.markdown_filename.endswith(".md"):
         parser.error(
-            f"The markdown file {parsed_args.markdown_filename} does not end with '.md'!"
+            f"The markdown file {args_for_validation.markdown_filename} does not end with '.md'!"
         )
 
-    return parsed_args
+    return args_for_validation
 
 
 class ClozeSpan(span_token.SpanToken):
+    """A SpanToken to represent an Anki cloze."""
     pattern = re.compile(r"\*\*\*<!--c([0-9]+)::(.*?)-->*(.+?)\*\*\*")
     parse_group = 3
 
@@ -104,12 +106,13 @@ class ClozeSpan(span_token.SpanToken):
         self.cloze_hint = match_obj.group(2)
 
 class EmptyNewLine(block_token.BlockToken):
+    """A BlockToken to handle new lines skipped by the default parsers."""
 
     pattern = re.compile(r"^\n$")
 
     def __init__(self, content):  # pylint: disable=W0231
-        self.content = ""
-        self.children = [span_token.RawText("")]
+        self.content = content
+        self.children = []
 
     @classmethod
     def start(cls, line: str) -> bool:
@@ -127,6 +130,8 @@ class EmptyNewLine(block_token.BlockToken):
         return "\n"  # Returning None has overhead.
 
 class SrsNoteBlock(block_token.BlockToken):
+    """A BlockToken to represent and Anki note in markdown."""
+
     START_LINE = "--- --- ---"
     END_LINE = "--- ---"
     CARD_SEPARATOR_LINE = "---"
@@ -185,11 +190,16 @@ class SrsNoteBlock(block_token.BlockToken):
         return front_lines, back_lines, note_number
 
 
-def srs_side_as_lines(renderer, token: SrsNoteBlock, is_front: bool) -> list[str]:
+def srs_side_as_lines(
+    renderer: "AnkiRenderer|MarkdownRendererWithSrsUpdates",
+    token: SrsNoteBlock,
+    is_front: bool,
+) -> list[str]:
+    """A util to render one side of an SrsNoteBlock using the passed renderer."""
     if is_front:
-        children: list[Token] = token.children_front
+        children: list[Token] = list(token.children_front)
     else:
-        children = token.children_back
+        children = list(token.children_back)
 
     # The underlying renderer returns lines with new lines at the end, but then
     # joins them with a new line, duplicating new lines.
@@ -200,23 +210,25 @@ def srs_side_as_lines(renderer, token: SrsNoteBlock, is_front: bool) -> list[str
 
 
 class AnkiRenderer(HtmlRenderer):
+    """A renderer used for note content in Anki."""
     def __init__(self):
         super().__init__(ClozeSpan, SrsNoteBlock, EmptyNewLine)
-        self.render_map["BlankLine"] = self.render_blank_line
 
-    def render_empty_new_line(self, token) -> str:
+    def render_empty_new_line(self, token: EmptyNewLine) -> str:
+        """Renders new lines that the default parsers skip. Not applicable for this renderer."""
+        del token
         return ""
 
-    def render_blank_line(self, token, max_line_length=None) -> str:
-        return "<br>"
-
     def render_srs_side(self, token: SrsNoteBlock, is_front: bool) -> str:
+        """Renders one side of the SrsNoteBlock in an Anki compatible way."""
         return '\n'.join(srs_side_as_lines(renderer=self, token=token, is_front=is_front))
 
     def render_srs_note_block(self, token: SrsNoteBlock, max_line_length: int|None = None) -> str:
-        del max_line_length  # Duplicate state.
+        """Renders the whole SrsNoteBlock into a fake HTML document."""
+        del max_line_length  # This state is already on the class.
         blocks: list[str] = [
-            "<anki-note>",
+            # This fake tag will be flagged during the export to Anki if the markdown is mismatched.
+            "<anki-note>",  
         ]
         if token.note_number:
             blocks.append(f"<!--note::{token.note_number}-->")
@@ -228,6 +240,7 @@ class AnkiRenderer(HtmlRenderer):
         return "\n".join(blocks)
 
     def render_cloze_span(self, token: ClozeSpan) -> str:
+        """Renders the cloze in an Anki compatible way."""
         # TODO: Debug why there is an added space.
         cloze_text = self.render_inner(token).rstrip()
         content = "{{c" + token.cloze_number + "::" + cloze_text
@@ -237,13 +250,20 @@ class AnkiRenderer(HtmlRenderer):
         return content
 
 class MarkdownRendererWithSrsUpdates(markdown_renderer.MarkdownRenderer):
+    """A renderer used for update the original markdown file with Anki metadata."""
+
     def __init__(self):
         super().__init__(ClozeSpan, SrsNoteBlock, EmptyNewLine)
 
-    def render_empty_new_line(self, token, max_line_length: int):
+    def render_empty_new_line(self, token: EmptyNewLine, max_line_length: int):
+        """Renders new lines that the default parsers skip to ensure changes are minimal."""
+        del token, max_line_length
         return [""]
 
-    def render_srs_note_block(self, token: SrsNoteBlock, max_line_length: int) -> markdown_renderer.Iterable[str]:
+    def render_srs_note_block(
+        self, token: SrsNoteBlock, max_line_length: int
+    ) -> markdown_renderer.Iterable[str]:
+        """Renders the whole SrsNoteBlock into markdown with a note number added."""
         del max_line_length  # Duplicate state.
         blocks: list[markdown_renderer.Iterable[str]] = [
             itertools.chain([SrsNoteBlock.START_LINE]),
@@ -257,7 +277,10 @@ class MarkdownRendererWithSrsUpdates(markdown_renderer.MarkdownRenderer):
         blocks.append(itertools.chain([SrsNoteBlock.END_LINE]))
         return itertools.chain.from_iterable(blocks)
 
-    def render_cloze_span(self, token: ClozeSpan) -> markdown_renderer.Iterable[markdown_renderer.Fragment]:
+    def render_cloze_span(
+        self, token: ClozeSpan
+    ) -> markdown_renderer.Iterable[markdown_renderer.Fragment]:
+        """Renders the cloze in the markdown format."""
         # TODO: Debug why there is an added space.
         cloze_text = self.render_inner(token).rstrip()
         content = "***<!--c" + token.cloze_number + "::"
@@ -268,19 +291,26 @@ class MarkdownRendererWithSrsUpdates(markdown_renderer.MarkdownRenderer):
 
 
 class SrsNoteType(Enum):
+    """An Enum for the supported Anki note types."""
     FRONT_BACK = 1
     FRONT_BACK_REVERSE = 2
     CLOZE = 3
 
 @dataclass
 class SrsNote:
+    """A dataclass to store information needed for each note."""
     front: str
     back: str
     type: SrsNoteType
     tag: str
     note_number: int
+    """The note_number is a unique number for each note.
+    It's used to ensure updates sync with Anki even as notes change orders.
+    For new notes, it is not populated and this tool will populate the value with
+    something easy to manually update later."""
 
 def is_cloze(note_token: SrsNoteBlock) -> bool:
+    """Return true if the markdown for the note represents a cloze card."""
     tokens: list[Token] = list(note_token.children_front)
     while len(tokens) > 0:
         token = tokens.pop(0)
@@ -296,12 +326,13 @@ def compile_notes(
     renderer: AnkiRenderer,
     print_walk = False,
 ) -> list[SrsNote]:
-    """Does a depth first search of the AST tracking the parent headings and notes."""
+    """Builds notes by doing a depth first search of the AST and tracks headings and notes."""
 
     tokens: list[Token] = [root_token]
     notes: list[SrsNote] = []
     headings: list[str] = []
-    note_numbers: set[int] = set()
+    note_numbers: set[int] = set([0])
+    items_without_note_numbers: list[tuple[SrsNoteBlock, SrsNote]] = []
 
     while len(tokens) > 0:
         token = tokens.pop(0)
@@ -312,12 +343,16 @@ def compile_notes(
             else:
                 note_type = SrsNoteType.FRONT_BACK
 
+            # If the source has a unique note_number used for the GUID then use it.
+            # If not then the token and note will be updated at the end.
             if token.note_number:
                 note_number = token.note_number
             else:
-                note_number = max(note_numbers) + 1
-                token.note_number = note_number
-            note_numbers.add(note_number)
+                note_number = -1
+            if note_number in note_numbers:
+                raise ValueError(f"The note number {note_number} is not unique!")
+            if note_number != -1:
+                note_numbers.add(note_number)
 
             note = SrsNote(
                 front=renderer.render_srs_side(token, is_front=True),
@@ -327,10 +362,12 @@ def compile_notes(
                 note_number=note_number,
             )
             notes.append(note)
+            if note_number == -1:
+                items_without_note_numbers.append((token, note))
 
         if isinstance(token, (block_token.Heading)):
-            children: list[Token] = token.children # pyright: ignore[reportAssignmentType]
-            if not token.children or not len(children) == 1:
+            children: list[Token] = list(token.children or [])
+            if len(children) != 1:
                 raise ValueError("Heading must have one child!")
             first_child: span_token.RawText = children[0] # pyright: ignore[reportAssignmentType]
             prefix, _, _ = first_child.content.partition(":")
@@ -340,16 +377,29 @@ def compile_notes(
             headings.append(prefix)
 
         if print_walk:
-            print('\nFinished walking token:', type(token), token, token.children, sep="\n")
+            print(
+                "\nFinished walking token:",
+                type(token),
+                token,
+                list(token.children or []),
+                sep="\n",
+            )
 
         # Add children ensuring the walk is in order, and depth first.
         if token.children:
-            tokens[0:0] = token.children
+            tokens[0:0] = list(token.children)
+
+    for (token, note) in items_without_note_numbers:
+        note_number = max(note_numbers) + 1
+        token.note_number = note_number
+        note.note_number = note_number
+        note_numbers.add(note_number)
 
     return notes
 
 
 def create_deck(notes: list[SrsNote], filename_md_apkg: str, dry_run=False):
+    """Creates an Anki apkg file from the SrsNote list passed in."""
 
     cwd = os.getcwd()
     # Get the path to this script, it's parent directory (bin) and it's parent directory.
@@ -361,7 +411,7 @@ def create_deck(notes: list[SrsNote], filename_md_apkg: str, dry_run=False):
     deck_name = "knowledge::" + "::".join(Path(filename_md_apkg.removesuffix(".md.apkg")).parts)
     deck_number: int = (
         int.from_bytes(guid_for("porcoesphino_notes", filename_md_apkg).encode("ascii"))
-        % SQL_LITE_MAX_VALUE
+        % SQL_LITE_MAX_INT
     )
 
     # Documentation:
@@ -392,7 +442,13 @@ def create_deck(notes: list[SrsNote], filename_md_apkg: str, dry_run=False):
         print("Deck built!")
 
 
-def parse_markdown_get_notes(filename, print_anki=False, print_walk=False, dry_run=False) -> list[SrsNote]:
+def create_deck_from_markdown_with_update(
+    filename,
+    print_anki=False,
+    print_walk=False,
+    dry_run=False,
+) -> list[SrsNote]:
+    """Creates an Anki deck based on a markdown file and updates the markdown with metadata."""
 
     backup_filename = f"{filename}.bak"
 
@@ -420,7 +476,6 @@ def parse_markdown_get_notes(filename, print_anki=False, print_walk=False, dry_r
             with MarkdownRendererWithSrsUpdates() as update_renderer:
                 updated_markdown = update_renderer.render(document)
 
-
     if not dry_run:
         with open(filename, "w", encoding="utf8") as md_file:
             print(f"Saving metadata to file {filename}")
@@ -435,7 +490,7 @@ def parse_markdown_get_notes(filename, print_anki=False, print_walk=False, dry_r
 
 if __name__ == "__main__":
     parsed_args = validate_and_return_args()
-    parsed_notes = parse_markdown_get_notes(
+    parsed_notes = create_deck_from_markdown_with_update(
         parsed_args.markdown_filename,
         print_anki=parsed_args.print_anki,
         print_walk=parsed_args.print_walk,
