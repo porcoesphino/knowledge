@@ -1,6 +1,10 @@
 # Planet Money Summer School
 
-## Intro Econ 1: Choices & Dating
+## Season 1: Microeconomics
+
+Theses notes are for [Season 1: Microeconomics](https://www.npr.org/series/1190058995/planet-money-summer-school-microeconomics) on the NPR [Planet Money](https://www.npr.org/series/1015448333/planet-money-summer-school) website.
+
+### Intro Econ 1: Choices & Dating
 
 --- --- ---
 <!--note::1-->
@@ -19,7 +23,7 @@
 ***<!--c1::-->Market equilibrium*** - When the supply and demand are balanced. Like with Uber surge pricing where drivers are offered more money as customers are willing to pay more until a balance is reached.
 --- ---
 
-## Intro Econ 2: Markets and Pickles
+### Intro Econ 2: Markets and Pickles
 
 --- --- ---
 <!--note::5-->
@@ -55,7 +59,7 @@ A ***<!--c1::-->planned economy*** is a type of economic system that has central
 A ***<!--c1::-->mixed economy*** includes attributes of a market economy and attributes of a planned economy.
 --- ---
 
-## Intro Econ 3: Profit and Cocaine
+### Intro Econ 3: Profit and Cocaine
 
 --- --- ---
 <!--note::11-->
@@ -66,7 +70,7 @@ A ***<!--c1::-->mixed economy*** includes attributes of a market economy and att
 Addictive substances like drugs don't have much of a supply change with demand, they are ***<!--c1::-->inelastic***. This means that making drugs illegal tends to make drug dealers more rich but does not lower drug use by much.
 --- ---
 
-## Intro Econ 4: Scarcity and Pistachios
+### Intro Econ 4: Scarcity and Pistachios
 
 --- --- ---
 <!--note::13-->
@@ -97,7 +101,7 @@ Solutions to the tragedy of the commons are easier with smaller numbers, that ha
 ***<!--c1::-->Cap*** and ***<!--c2::-->trade*** - Since legislating a ***<!--c1::-->cap*** on resource use can have distributional issues, a ***<!--c2::-->trade*** system is added to allow consumers that can easily drop the resource use to ***<!--c2::-->trade*** with those that need more lead time. For example the carbon ***<!--c1::-->cap*** and ***<!--c2::-->trade*** proposals.
 --- ---
 
-## Intro Econ 5: Trade and Santa
+### Intro Econ 5: Trade and Santa
 
 - trade - the transfer of goods and services from one person or entity to another
 - tariff - a tax charged on goods as they pass between one country and another.
@@ -115,7 +119,7 @@ Solutions to the tragedy of the commons are easier with smaller numbers, that ha
 - Tariffs are often split around complex groupings to make different rates. This is often built around lobbying.
 - Tariffs often result in an industry of lawyers trying to make taxes lower. This is part of the deadweight loss.
 
-## Intro Econ 6: Taxes and Donald Duck
+### Intro Econ 6: Taxes and Donald Duck
 
 - Taxes solve the problem of resource relocation, particularly for the services provided by government. There are various ways to do this, with different levels of efficiency.
 - Income tax - a tax imposed on individuals or entities based on the income or profits earned by them.
@@ -135,13 +139,13 @@ Solutions to the tragedy of the commons are easier with smaller numbers, that ha
 - Overwithholding for tax makes now sense for direct economic rationale, but it does as a savings device, and viewing tax through this lens can offer other benefits.
 - Tax is often not seen as a civic duty for the benefits of society but tax avoidance can work as a measure of trust in the government.
 
-## Intro Econ 7: Advertising and Race
+### Intro Econ 7: Advertising and Race
 
 Advertising
 Market segmentation
 Information problems
 
-## Intro Econ 8: Risk and Disaster
+### Intro Econ 8: Risk and Disaster
 
 - risk. probability of negative outcome. Cost of negative outcome.
 - opportunity cost
