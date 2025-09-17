@@ -7,19 +7,23 @@ from enum import Enum
 import itertools
 import os
 from pathlib import Path
-import shutil
-
 import re
+import shutil
+import typing
+
+from collections.abc import Iterable
 
 import genanki
-from genanki.util import guid_for
+import genanki.note
+from genanki.deck import Deck
+from genanki import builtin_models
+from genanki.util import guid_for # pyright: ignore[reportUnknownVariableType]
 
 # TODO: Consider migrating to mistletoe-ebp:
 # https://mistletoe-ebp.readthedocs.io/en/latest/index.html
 # As part of the Executable Books Project.
 # https://executablebooks.org
 
-import mistletoe
 from mistletoe import block_token, markdown_renderer, span_token
 from mistletoe.token import Token
 from mistletoe.block_tokenizer import FileWrapper
@@ -101,16 +105,16 @@ class ClozeSpan(span_token.SpanToken):
     pattern = re.compile(r"\*\*\*<!--c([0-9]+)::(.*?)-->*(.+?)\*\*\*")
     parse_group = 3
 
-    def __init__(self, match_obj):  # pylint: disable=W0231
-        self.cloze_number = match_obj.group(1)
-        self.cloze_hint = match_obj.group(2)
+    def __init__(self, match_obj: re.Match[str]):  # pylint: disable=W0231
+        self.cloze_number: str = match_obj.group(1)
+        self.cloze_hint: str = match_obj.group(2)
 
 class EmptyNewLine(block_token.BlockToken):
     """A BlockToken to handle new lines skipped by the default parsers."""
 
     pattern = re.compile(r"^\n$")
 
-    def __init__(self, content):  # pylint: disable=W0231
+    def __init__(self, content: str):  # pylint: disable=W0231
         self.content = content
         self.children = []
 
@@ -124,7 +128,7 @@ class EmptyNewLine(block_token.BlockToken):
         lines: FileWrapper,
     ) -> str:
         """Reads lines until the block is complete. The return is used in the constructor"""
-        line = next(lines)
+        line: str = next(lines) # pyright: ignore[reportUnknownVariableType]
         if line != "\n":
             raise ValueError("Internal issue parsing a new line")
         return "\n"  # Returning None has overhead.
@@ -138,17 +142,27 @@ class SrsNoteBlock(block_token.BlockToken):
     pattern = re.compile(START_LINE + r"\n([\S\s]+?(|\n---([\S\s]+?)))\n" + END_LINE)
     pattern_note_number = re.compile(r"<!--note::([0-9]+)-->")
 
-    def __init__(self, match):  # pylint: disable=W0231
+    def __init__(
+        self, match: tuple[list[str], list[str], int | None]
+    ):  # pylint: disable=W0231
         """Constructs an SrsNoteBlock using the output of the `read` method."""
 
         front_lines, back_lines, note_number = match
 
-        self.note_number = note_number
+        self.note_number: int | None = note_number
 
         self.front_content = '\n'.join([line.strip() for line in (front_lines)])
         self.back_content = '\n'.join([line.strip() for line in (back_lines)])
-        self.children_front: list[Token] = list(block_token.tokenize(front_lines))
-        self.children_back: list[Token] = list(block_token.tokenize(back_lines))
+        self.children_front: list[Token] = list(
+            block_token.tokenize(  # pyright: ignore
+                front_lines
+            )
+        )
+        self.children_back: list[Token] = list(
+            block_token.tokenize(  # pyright: ignore
+                back_lines
+            )
+        )
         # TODO: Replace this with adding children with token types.
         # Our code doesn't use children, but fudge it for other code.
         self.children = self.children_front + self.children_back
@@ -167,12 +181,13 @@ class SrsNoteBlock(block_token.BlockToken):
         list[str], list[str], int | None
     ]:
         """Reads lines until the block is complete. The return is used in the constructor"""
-        front_lines = []
-        back_lines = []
-        note_number = None
+        front_lines: list[str] = []
+        back_lines: list[str] = []
+        note_number: int | None = None
         is_front = True
         next(lines) # Skip the line with three hr.
-        for line in lines:
+        lines_cast_for_typing: list[str] = lines # pyright: ignore[reportAssignmentType]
+        for line in lines_cast_for_typing:
             match = SrsNoteBlock.pattern_note_number.match(line)
             if (match and match.group(1)):
                 note_number = int(match.group(1))
@@ -204,7 +219,12 @@ def srs_side_as_lines(
     # The underlying renderer returns lines with new lines at the end, but then
     # joins them with a new line, duplicating new lines.
     # Strip these, and account for us sometimes returning None.
-    lines_raw = list(map(renderer.render, children))
+    lines_raw = list(
+        map(
+            renderer.render,  # type: ignore
+            children,
+        )
+    )
     lines_stripped = [line.removesuffix("\n") for line in lines_raw]
     return lines_stripped
 
@@ -212,7 +232,11 @@ def srs_side_as_lines(
 class AnkiRenderer(HtmlRenderer):
     """A renderer used for note content in Anki."""
     def __init__(self):
-        super().__init__(ClozeSpan, SrsNoteBlock, EmptyNewLine)
+        super().__init__( # pyright: ignore[reportUnknownMemberType]
+            ClozeSpan,
+            SrsNoteBlock,
+            EmptyNewLine,
+        )
 
     def render_empty_new_line(self, token: EmptyNewLine) -> str:
         """Renders new lines that the default parsers skip. Not applicable for this renderer."""
@@ -242,7 +266,9 @@ class AnkiRenderer(HtmlRenderer):
     def render_cloze_span(self, token: ClozeSpan) -> str:
         """Renders the cloze in an Anki compatible way."""
         # TODO: Debug why there is an added space.
-        cloze_text = self.render_inner(token).rstrip()
+        cloze_text = self.render_inner( # pyright: ignore[reportUnknownMemberType]
+            token,
+        ).rstrip()
         content = "{{c" + token.cloze_number + "::" + cloze_text
         if token.cloze_hint:
             content += "::" + token.cloze_hint
@@ -253,7 +279,11 @@ class MarkdownRendererWithSrsUpdates(markdown_renderer.MarkdownRenderer):
     """A renderer used for update the original markdown file with Anki metadata."""
 
     def __init__(self):
-        super().__init__(ClozeSpan, SrsNoteBlock, EmptyNewLine)
+        super().__init__( # type: ignore
+            ClozeSpan,
+            SrsNoteBlock,
+            EmptyNewLine,
+        )
 
     def render_empty_new_line(self, token: EmptyNewLine, max_line_length: int):
         """Renders new lines that the default parsers skip to ensure changes are minimal."""
@@ -262,10 +292,10 @@ class MarkdownRendererWithSrsUpdates(markdown_renderer.MarkdownRenderer):
 
     def render_srs_note_block(
         self, token: SrsNoteBlock, max_line_length: int
-    ) -> markdown_renderer.Iterable[str]:
+    ) -> Iterable[str]:
         """Renders the whole SrsNoteBlock into markdown with a note number added."""
         del max_line_length  # Duplicate state.
-        blocks: list[markdown_renderer.Iterable[str]] = [
+        blocks: list[Iterable[str]] = [
             itertools.chain([SrsNoteBlock.START_LINE]),
         ]
         if token.note_number:
@@ -279,10 +309,10 @@ class MarkdownRendererWithSrsUpdates(markdown_renderer.MarkdownRenderer):
 
     def render_cloze_span(
         self, token: ClozeSpan
-    ) -> markdown_renderer.Iterable[markdown_renderer.Fragment]:
+    ) -> Iterable[markdown_renderer.Fragment]:
         """Renders the cloze in the markdown format."""
         # TODO: Debug why there is an added space.
-        cloze_text = self.render_inner(token).rstrip()
+        cloze_text = self.render_inner(token).rstrip() # pyright: ignore[reportUnknownMemberType]
         content = "***<!--c" + token.cloze_number + "::"
         if token.cloze_hint:
             content += token.cloze_hint
@@ -324,7 +354,7 @@ def is_cloze(note_token: SrsNoteBlock) -> bool:
 def compile_notes(
     root_token: block_token.BlockToken,
     renderer: AnkiRenderer,
-    print_walk = False,
+    print_walk: bool = False,
 ) -> list[SrsNote]:
     """Builds notes by doing a depth first search of the AST and tracks headings and notes."""
 
@@ -369,8 +399,8 @@ def compile_notes(
             children: list[Token] = list(token.children or [])
             if len(children) != 1:
                 raise ValueError("Heading must have one child!")
-            first_child: span_token.RawText = children[0] # pyright: ignore[reportAssignmentType]
-            prefix, _, _ = first_child.content.partition(":")
+            heading: str = typing.cast(str, children[0].content) # type: ignore
+            prefix, _, _ = heading.partition(":")
             prefix = prefix.lower().replace(" ", "_")
             if len(headings) >= token.level:
                 headings.pop()  # Previous least important heading
@@ -398,7 +428,11 @@ def compile_notes(
     return notes
 
 
-def create_deck(notes: list[SrsNote], filename_md_apkg: str, dry_run=False):
+def create_deck(
+    notes: list[SrsNote],
+    filename_md_apkg: str,
+    dry_run: bool = False,
+) -> None:
     """Creates an Anki apkg file from the SrsNote list passed in."""
 
     cwd = os.getcwd()
@@ -410,43 +444,49 @@ def create_deck(notes: list[SrsNote], filename_md_apkg: str, dry_run=False):
 
     deck_name = "knowledge::" + "::".join(Path(filename_md_apkg.removesuffix(".md.apkg")).parts)
     deck_number: int = (
-        int.from_bytes(guid_for("porcoesphino_notes", filename_md_apkg).encode("ascii"))
+        int.from_bytes(
+            guid_for(  # type: ignore
+                "porcoesphino_notes",
+                filename_md_apkg,
+            ).encode("ascii")
+        )
         % SQL_LITE_MAX_INT
     )
 
     # Documentation:
     # https://github.com/kerrickstaley/genanki
-    deck = genanki.Deck(deck_number, deck_name)
+    deck = Deck(deck_number, deck_name)
 
     note_number = 0
     for note in notes:
         match note.type:
             case SrsNoteType.CLOZE:
-                model = genanki.CLOZE_MODEL
+                model = builtin_models.CLOZE_MODEL
             case SrsNoteType.FRONT_BACK:
-                model = genanki.BASIC_MODEL
+                model = builtin_models.BASIC_MODEL
             case SrsNoteType.FRONT_BACK_REVERSE:
-                model = genanki.BASIC_AND_REVERSED_CARD_MODEL
-        note = genanki.Note(
+                model = builtin_models.BASIC_AND_REVERSED_CARD_MODEL
+        note = genanki.note.Note(
             model=model,
             fields=[note.front, note.back],
             tags=[note.tag],
             guid=guid_for("porcoesphino_notes", note.tag, note_number),
         )
-        deck.add_note(note)
+        deck.add_note(note) # pyright: ignore[reportUnknownMemberType]
         note_number += 1
 
     if not dry_run:
         print(f"Building deck {filename_md_apkg}")
-        genanki.Package(deck).write_to_file(filename_md_apkg)
+        package = genanki.package.Package(deck)
+        package.write_to_file(filename_md_apkg) # pyright: ignore[reportUnknownMemberType]
         print("Deck built!")
 
 
 def create_deck_from_markdown_with_update(
-    filename,
-    print_anki=False,
-    print_walk=False,
-    dry_run=False,
+    filename: str,
+    print_anki: bool=False,
+    print_walk: bool=False,
+    dry_run: bool=False,
 ) -> list[SrsNote]:
     """Creates an Anki deck based on a markdown file and updates the markdown with metadata."""
 
@@ -461,8 +501,9 @@ def create_deck_from_markdown_with_update(
         print("File backed up!")
 
     with open(filename, "r", encoding="utf8") as md_file:
-        with AnkiRenderer() as anki_renderer:
-            document = mistletoe.Document(md_file)
+        with AnkiRenderer() as anki_renderer_uncast: # pyright: ignore[reportUnknownVariableType]
+            anki_renderer = typing.cast(AnkiRenderer, anki_renderer_uncast)
+            document = block_token.Document(md_file)
             notes = compile_notes(
                 root_token=document, renderer=anki_renderer, print_walk=print_walk
             )
@@ -471,10 +512,15 @@ def create_deck_from_markdown_with_update(
                 for note in notes:
                     print(note, "\n")
             if print_anki:
-                print(anki_renderer.render(document))
+                print(anki_renderer.render(document)) # type: ignore
             create_deck(notes, filename_md_apkg=f"{filename}.apkg", dry_run=dry_run)
-            with MarkdownRendererWithSrsUpdates() as update_renderer:
-                updated_markdown = update_renderer.render(document)
+            with MarkdownRendererWithSrsUpdates() as update_renderer: # type: ignore
+                updated_markdown = typing.cast(
+                    str,
+                    update_renderer.render(  # type: ignore
+                        document,
+                    ),
+                )
 
     if not dry_run:
         with open(filename, "w", encoding="utf8") as md_file:
