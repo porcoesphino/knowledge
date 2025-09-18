@@ -4,9 +4,17 @@
 		"prefix": ["---", "card"],
 		"body": [
 			"--- --- ---",
-			"***<!--c1::${1:hint}-->${2:cloze}***${3:text}",
+			"***<!--c1::${1:hint}-->$TM_SELECTED_TEXT***${3:text}",
 			"--- ---"
 		],
 		"description": "Create markdown SRS card"
-	}
+	},
+	"Add cloze": {
+		"scope": "markdown",
+		"prefix": ["*", "**", "***"],
+		"body": [
+			"***<!--c${1:number}::${2:hint}-->$TM_SELECTED_TEXT***",
+		],
+		"description": "Create cloze for an SRS card"
+	},
 }
