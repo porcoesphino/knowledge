@@ -18,7 +18,7 @@ An ***<!--c1::-->isotope*** of an ***<!--c2::-->element*** has the same number o
 --- --- ---
 <!--note::3-->
 The ***<!--c1::-->[relative atomic mass](https://en.wikipedia.org/wiki/Relative_atomic_mass)
-($A_r$)***, previously the atomic weight, of a given element is the weighted arithmetic mean of the masses of the individual atoms (including all its isotopes) that are present in the sample.
+(A<sub>r</sub>)***, previously the atomic weight, of a given element is the weighted arithmetic mean of the masses of the individual atoms (including all its isotopes) that are present in the sample.
 --- ---
 --- --- ---
 <!--note::4-->
@@ -105,7 +105,7 @@ Constants:
 
 ---
 
-$ 19 \div 19 \times 6.022 \times 10^{23} = 6.022 \times 10^{23}$
+$19 \div 19 \times 6.022 \times 10^{23} = 6.022 \times 10^{23}$
 --- ---
 
 ![A simple periodic table](periodic_table_simple.svg)
