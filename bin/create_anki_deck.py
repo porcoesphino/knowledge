@@ -65,6 +65,17 @@ def validate_and_return_args():
   Back
   --- ---
   ```
+
+  Headings will be used for tags but only the parts before a ':' character. If you
+  want to include an extra item in the tag hierarchy then you can use " - " to add
+  to items. For example, a card under these headings:
+
+  ```
+  # Khan - College Chemistry
+  # Unit 1: Atomic structure and properties
+  ```
+
+  Would have this tag added "khan::college_chemistry::unit_1".
       """,
         formatter_class=argparse.RawTextHelpFormatter,
     )
@@ -99,6 +110,9 @@ def validate_and_return_args():
 
     return args_for_validation
 
+class LatexSpan(span_token.SpanToken):
+    """A SpanToken to represent an Anki cloze."""
+    pattern = re.compile(r"\$(.*?)\$")
 
 class ClozeSpan(span_token.SpanToken):
     """A SpanToken to represent an Anki cloze."""
@@ -236,7 +250,15 @@ class AnkiRenderer(HtmlRenderer):
             ClozeSpan,
             SrsNoteBlock,
             EmptyNewLine,
+            LatexSpan,
         )
+
+    def render_latex_span(self, token: LatexSpan):
+        """Renders inline latex that did use `$` into the Anki format `\\(`, `\\)`."""
+        inner_text: str = self.render_inner(  # pyright: ignore[reportUnknownMemberType]
+            token,
+        ).removesuffix("\n")
+        return f"\\({inner_text}\\)"
 
     def render_empty_new_line(self, token: EmptyNewLine) -> str:
         """Renders new lines that the default parsers skip. Not applicable for this renderer."""
@@ -283,7 +305,15 @@ class MarkdownRendererWithSrsUpdates(markdown_renderer.MarkdownRenderer):
             ClozeSpan,
             SrsNoteBlock,
             EmptyNewLine,
+            LatexSpan,
         )
+
+    def render_latex_span(self, token: LatexSpan):
+        """Renders inline latex without change."""
+        inner_text: str = self.render_inner(  # pyright: ignore[reportUnknownMemberType]
+            token,
+        ).removesuffix("\n")
+        yield  markdown_renderer.Fragment(f"${inner_text}$", wordwrap=True)
 
     def render_empty_new_line(self, token: EmptyNewLine, max_line_length: int):
         """Renders new lines that the default parsers skip to ensure changes are minimal."""
@@ -384,11 +414,14 @@ def compile_notes(
             if note_number != -1:
                 note_numbers.add(note_number)
 
+            # Join headings as a tag, but allow for hyphens to add to the hierarchy.
+            tag = "::".join("::".join(headings).split("_-_"))
+
             note = SrsNote(
                 front=renderer.render_srs_side(token, is_front=True),
                 back=renderer.render_srs_side(token, is_front=False),
                 type=note_type,
-                tag="::".join(headings),
+                tag=tag,
                 note_number=note_number,
             )
             notes.append(note)
@@ -402,8 +435,10 @@ def compile_notes(
             heading: str = typing.cast(str, children[0].content) # type: ignore
             prefix, _, _ = heading.partition(":")
             prefix = prefix.lower().replace(" ", "_")
+
             if len(headings) >= token.level:
                 headings.pop()  # Previous least important heading
+
             headings.append(prefix)
 
         if print_walk:
