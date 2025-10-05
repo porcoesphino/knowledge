@@ -1,24 +1,20 @@
 # A primer on governments
 
-<summary>Table of contents</summary>
-  <p>
-- [A primer on governments](#a-primer-on-governments)
-  - [Why governments exist](#why-governments-exist)
-  - [Political systems](#political-systems)
-  - [The structures of government](#the-structures-of-government)
-    - [The legislature](#the-legislature)
-    - [The judiciary](#the-judiciary)
-    - [The executive](#the-executive)
-    - [Checks and balances](#checks-and-balances)
-  - [Levels of government](#levels-of-government)
-  - [Systems of law](#systems-of-law)
-  - [Systems of economics](#systems-of-economics)
-  - [Systems of voting](#systems-of-voting)
-  - [Modern political systems](#modern-political-systems)
-    - [World's states colored by systems of government](#world-s-states-colored-by-systems-of-government)
-    - [Democracies](#democracies)
-</p>
-</details>
+## Table of contents
+
+- [Why governments exist](#why-governments-exist)
+- [Political systems](#political-systems)
+- [The structures of government](#the-structures-of-government)
+  - [The legislature](#the-legislature)
+  - [The judiciary](#the-judiciary)
+  - [The executive](#the-executive)
+  - [Checks and balances](#checks-and-balances)
+- [Levels of government](#levels-of-government)
+- [Systems of law](#systems-of-law)
+- [Systems of economics](#systems-of-economics)
+- [Systems of voting](#systems-of-voting)
+- [Modern political systems](#modern-political-systems)
+  - [Democracies](#democracies)
 
 ## Why write this document?
 
