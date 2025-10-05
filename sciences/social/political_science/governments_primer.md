@@ -1,5 +1,25 @@
 # A primer on governments
 
+<summary>Table of contents</summary>
+  <p>
+- [A primer on governments](#a-primer-on-governments)
+  - [Why governments exist](#why-governments-exist)
+  - [Political systems](#political-systems)
+  - [The structures of government](#the-structures-of-government)
+    - [The legislature](#the-legislature)
+    - [The judiciary](#the-judiciary)
+    - [The executive](#the-executive)
+    - [Checks and balances](#checks-and-balances)
+  - [Levels of government](#levels-of-government)
+  - [Systems of law](#systems-of-law)
+  - [Systems of economics](#systems-of-economics)
+  - [Systems of voting](#systems-of-voting)
+  - [Modern political systems](#modern-political-systems)
+    - [World's states colored by systems of government](#world-s-states-colored-by-systems-of-government)
+    - [Democracies](#democracies)
+</p>
+</details>
+
 ## Why write this document?
 
 During Donald Trump's second term as the US president there had been many comments and articles about about how the government is being destroyed or made stronger and I noticed that my personal responses to these articles were mostly emotional and not based as much on logic since I didn't really understand how the US government worked, or any other government to be honest. I have also learnt during my time in different countries that when someone has a strong view about how a system should work, or the consequences of change, it can be valuable to quickly think through and learn how things work elsewhere. So, I had the goal of learning how the US government worked, but also a few other governments around the world that I was familiar with. I started off by taking some notes for myself but over time cleaned them up as if I would share them more generally, since it forced me to review the notes and notice where I had large gaps.
