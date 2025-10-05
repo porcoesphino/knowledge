@@ -1,54 +1,51 @@
 # A primer on governments
 
+## Why write this document?
+
+During Donald Trump's second term as the US president there had been many comments and articles about about how the government is being destroyed or made stronger and I noticed that my personal responses to these articles were mostly emotional and not based as much on logic since I didn't really understand how the US government worked, or any other government to be honest. I have also learnt during my time in different countries that when someone has a strong view about how a system should work, or the consequences of change, it can be valuable to quickly think through and learn how things work elsewhere. So, I had the goal of learning how the US government worked, but also a few other governments around the world that I was familiar with. I started off by taking some notes for myself but over time cleaned them up as if I would share them more generally, since it forced me to review the notes and notice where I had large gaps.
+
+This document opens pretty broad. In part because I started off really ignorant and probably started off more philosophical than ideal, but also because in the immediate aftermath of COVID (and I'd argue 2025 still has strong signals of the economic effects and the resentment from some groups of people), there are some strong and broad views on government that weren't as prevalent or loud as they had been, so I aimed to start from a foundation that could include as many of these views as I was aware of.
+
 ## Why governments exist
 
-In the absence of political order and law, everyone would have unlimited
-natural freedoms, including the freedom to plunder, rape and murder. A way to
-avoid these negatives is for people to give up some freedoms to the state in
-exchange for security. For example, most citizens do not have the freedom to
-commit extreme violence and most states are granted the ability to imprison
-people, ideally those that have infringed on other citizens freedoms. This is known
-as the [social contract theory](https://en.wikipedia.org/wiki/Social_contract)
-and is sometimes extended beyond why governments are important into the justification for why governments should exist.
+### A justification for government
 
-People born into these governments are entering systems that have power
-structures that they may have never consented to and this is both an issue
-philosophically and a framing that can be used to measure a government against.
-This is part of [consent of the governed](https://en.wikipedia.org/wiki/Consent_of_the_governed)
-theory with one perspective being that elections are the will of the people
-and that forms the basis of both consent and the authority of government.
+In the absence of political order and law, everyone would have unlimited natural freedoms, including the freedom to plunder, rape and murder. A way to avoid these negatives is for people to give up some freedoms to the state in exchange for security. For example, most citizens do not have the freedom to commit extreme violence and most states are granted the ability to imprison people, ideally those that have infringed on other citizens freedoms. This is known as the [social contract theory](https://en.wikipedia.org/wiki/Social_contract) and is sometimes extended beyond why governments are important into the justification for why governments should exist.
 
-Another framing is through [realism](https://en.wikipedia.org/wiki/Realism_(international_relations))
-from international relations theory and there world politics is thought of as
-an enduring competition among self-interested states jostling for power and
-positioning; and then a government is any system that allows states to
-continue to exist or increase in power. Unlike the earlier framings, this
-accounts for governments that are less ideal but do occur, like
-[tyrannies](https://en.wikipedia.org/wiki/Tyrant).
+People born into these governments are entering systems that have power structures that they may have never consented to and this is both an issue philosophically and a framing that can be used to measure a government against. This is part of [consent of the governed](https://en.wikipedia.org/wiki/Consent_of_the_governed) theory with one perspective being that elections are the will of the people and that forms the basis of both consent and the authority of government.
 
-This is a pretty simplified, academic view and both philosophy and political
-science cover a lot more ground. Most governments also come with a history and that
-includes biases. This can be taken so far to include our basal animal biology.
-A system of government that has citizens give up unwanted freedoms to protect
-the desired freedoms has benefits. Some forms of government take the position
-that some of these freedoms are natural inalienable rights, like the US
-[Declaration of Independence](https://www.archives.gov/founding-docs/declaration-transcript).
-Exactly what is allowed varies between countries and has far too much variation
-for a short document. The systems that exists to make these decisions have
-some commonalities and these will be the focus of this document.
+Another framing is through [realism](https://en.wikipedia.org/wiki/Realism_(international_relations)) from international relations theory and there world politics is thought of as an enduring competition among self-interested states jostling for power and positioning; and then a government is any system that allows states to continue to exist or increase in power. Unlike the earlier framings, this accounts for governments that are less ideal but do occur, like [tyrannies](https://en.wikipedia.org/wiki/Tyrant).
+
+This is a pretty simplified, academic view and both philosophy and political science cover a lot more ground. Most governments also come with a history and that includes biases. This can be taken so far to include our basal animal biology. A system of government that has citizens give up unwanted freedoms to protect the desired freedoms has benefits. Some forms of government take the position that some of these freedoms are natural inalienable rights, like the US [Declaration of Independence](https://www.archives.gov/founding-docs/declaration-transcript).
+
+Exactly what "freedoms" are okay to give up, and what is worth protecting varies across a population and across different communities within a population. So can ideas around the best way to come to those changing equilibriums. This document will only briefly touch on some of the ideologies and mostly focus un the structures of government that are more broadly used to decide how society balances these different views.
 
 References:
 
 - Khan academy — [US government and civics: The social contract](https://www.youtube.com/watch?v=fI1t0dY5zoc)
 - Wikipedia — [Social contract theory](https://en.wikipedia.org/wiki/Social_contract)
 
+### The benefits of government
+
+So far the focus has been more on the morality or philosophical arguments of why government should exist or balance the needs of it's people, but not on the general benefits a government provides and [economics](https://www.npr.org/series/1190058995/planet-money-summer-school-microeconomics) can be used as foundation for some of these arguments. Some of these could be framed under social contract theory, like health insurance being a way the government helps improve the individual liberty of not dying, but economics fits better. Lots of economics focuses on markets that are part of capitalism but many of the concepts are useful more generally like [scarcity](https://en.wikipedia.org/wiki/Scarcity) and [resource](https://en.wikipedia.org/wiki/Resource) distribution.
+
+One benefit of government can be to offer more secure and trustworthy institutions that lower [transaction costs](https://en.wikipedia.org/wiki/Transaction_cost) (ie. in contrast, in some countries there can be a large overhead to ensuring that if you pay for a bus, it will actually result in you getting to the destination and this overhead tends to increase with large groups of strangers that differ in expectations). In a government with strong institutions that includes a market economy (even if it's a black market) then this leads to more transactions, and these in aggregate should balance resources more efficiently across the state. If this balance is still off from what is desired (ideally by the citizens but possibly just the state) then legislation or stronger methods can be used to nudge the equilibrium to a more desired state.
+
+Presuming that people's situations have ups and downs, that these ups and downs are not well aligned, and that there is an small excess in resources, then insurance can be set up for all. This can be setup so that there is a small overhead for all, it improves the worst experiences and only has a small overhead for all. This does rely on on strong institutions, trust in these institutions and all members paying in. Although this improves the average situation with minimal individual cost, since it require's compulsory payments there is an argument that this impeded on liberties, and this argument is similar to the one against government as a whole. Mathematically, if you are far wealthier then the issue that's being insured against, then your best strategy is to avoid paying in. This is not mathematically true for those with less resources, although these groups can have some large negative sentiment against these systems, and probably more because of efficient marketing by people with resources that want to avoid these schemes. Exactly what is should be insured, and how much is put aside varies across countries with ideals varying by person. Common systems that can be framed this way include health insurance, welfare, third party car insurance. Although somewhat different, the pension could be included in this framing. Practical systems can vary on how effective they are with corruption, weak institutions, a loss of resources, an increase in payouts, aligned misfortunes and allowing personal choice (due to [information asymmetries](https://en.wikipedia.org/wiki/Information_asymmetry)) all increasing cost and decreasing stability of the system.
+
+Government is one of our best known tools when there are some misaligned motivations and the numbers of people interacting increase. An example of this is when independent actors can end up destroying shared resources that they themselves need, in what's known as the [tragedy of the commons](https://en.wikipedia.org/wiki/Tragedy_of_the_commons) (like independent farmers using independent wells that will dry up without restraint from all members of the group). One part of this, that can also be seen in isolation, is [negative externalities](https://en.wikipedia.org/wiki/Externality#Negative) where someones goal can have negative side effects to unrelated people (ie. smoking giving others lung cancer, or frequent parties keeping neighbours awake). Both of these can be handled with guilt an ethics in smaller communities like a family but these mechanisms begin to fall apart in larger groups and then government can be effective.
+
+Although political issues, like economics, are not a focus of this document, there is an important framing to include here from economics across government issues. Some political issues are [luxury goods](https://en.wikipedia.org/wiki/Luxury_goods), like environmental policy, and come after [basic needs](https://en.wikipedia.org/wiki/Basic_needs) and general security are met. It's not uncommon for financial security to become a larger issue during economic downturns and other issues, that can be framed as luxury goods, to become far less important to much of the population. Richer parts of the country, and richer countries, in these situations may take an ethical highroad and look down on people that do not share a concern for these issues.
+
+### Managing consent
+
+Across a population there will be differences in opinion and balancing these differing views has some complications. For centralised leadership then at the very least there is a need to ensure differing views don't trigger a regime change and in democracies differing views get more complicated. It's impractical to only making decisions that have complete consensus, as anyone that's tried to make plans to eat out with more than six people probably knows. Allowing personal opt outs (like believed as part of the [sovereign citizen movement](https://en.wikipedia.org/wiki/Sovereign_citizen_movement)) would have large overhead and isn't particularly realistic (imagine people could opt out of being forbidden to murder). It is difficult to ensure powerful or loud minorities don't overpower the majority (like monarchs of old, or special interest groups), and it is generally considered not ideal. There is the opposite issue of the majority abusing minorities (like with indigenous groups for example when there were government initiatives to breed them out) that is both problematic and also difficult to avoid completely.
+
+There are many ways to balance these and people have different views on exactly where on the scale their governments should be, but in many modern systems there has been an aim to ensure each individual has voice that has a similar amount of power, besides elected individuals, although practical systems can differ on how effective their methods are. In democratic systems, minor seeming changes to voting systems can have large effects on [proportional representation](https://en.wikipedia.org/wiki/Proportional_representation) that may not be intuitive or expected even to those with a strong background in maths (see [comparison of voting rules](https://en.wikipedia.org/wiki/Comparison_of_voting_rules)).
+
 ## Political systems
 
-Political systems define the process for making official government decisions.
-They usually comprise the governmental legal and economic system, social and
-cultural system, and other state and government specific systems. In reality
-this is a very complex system involving the questions of who should have
-authority and what the government influence on its people and economy should be.
+Political systems define the process for making official government decisions. They usually comprise the governmental legal and economic system, social and cultural system, and other state and government specific systems. In reality this is a very complex system involving the questions of who should have authority and what the government influence on its people and economy should be.
 
 ### Social anthropological political systems
 
