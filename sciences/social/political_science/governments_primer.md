@@ -133,9 +133,7 @@ Many governments use a tripartite government of three branches:
   - Guides the general direction of the government
   - Runs the government based on the laws passed by the legislative
 
-In many countries, the government has a kind of
-[constitution](https://en.wikipedia.org/wiki/Constitution), a statement of its
-governing principles and philosophy.
+In many countries, the government has a kind of [constitution](https://en.wikipedia.org/wiki/Constitution), a statement of its governing principles and philosophy.
 
 ### The legislature
 
@@ -152,10 +150,7 @@ References:
 
 ## Levels of government
 
-Governments have a national level that organises things like treaties with
-other countries or armies. They also have some method of delegating smaller
-decisions to more local area, like when deciding where to build a local kindergarten.
-Often this results in some split like:
+Governments have a national level that organises things like treaties with other countries or armies. They also have some method of delegating smaller decisions to more local area, like when deciding where to build a local kindergarten. Often this results in some split like:
 
 - Federal
 - Regional (eg. provinces, states, territories, etc.)
@@ -163,9 +158,7 @@ Often this results in some split like:
 - City / Town
 - Suburb
 
-This is sometimes called [Multi-level governance](https://en.wikipedia.org/wiki/Multi-level_governance).
-The exact splits vary from country to country but here is a breakdown of how
-this works in Australia as an example of the general principle:
+This is sometimes called [Multi-level governance](https://en.wikipedia.org/wiki/Multi-level_governance). The exact splits vary from country to country but here is a breakdown of how this works in Australia as an example of the general principle:
 
 - Federal
 
@@ -216,21 +209,12 @@ this works in Australia as an example of the general principle:
 <details>
   <summary>Why use Australia as the example?</summary>
   <p>
-  While looking for an authoritative source there was a lot of noise in the
-  internet search with a lot of websites being from questionable sources
-  (often companies offering education as a service but the quality was tough to
-  quickly rate), giving partial information or being complicated. It turned out
-  that adding a single keyword like "UK", or "Australia" cleaned up results and
-  a quick scan ended with a page that gave a nice summary of the Australian system
-  that could be used to demonstrate the general idea and came straight from that
-  government. These separations are also more clearly stated in the Australian
-  constitution, for example some is defined in [Chapter 1, Part 5, Section 51](https://ausconstitution.peo.gov.au/chapter-i_part-v_powers-of-the-parliament.html#chapter-01_part-05_51).
+  While looking for an authoritative source there was a lot of noise in the internet search with a lot of websites being from questionable sources (often companies offering education as a service but the quality was tough to quickly rate), giving partial information or being complicated. It turned out that adding a single keyword like "UK", or "Australia" cleaned up results and a quick scan ended with a page that gave a nice summary of the Australian system that could be used to demonstrate the general idea and came straight from that government. These separations are also more clearly stated in the Australian constitution, for example some is defined in [Chapter 1, Part 5, Section 51](https://ausconstitution.peo.gov.au/chapter-i_part-v_powers-of-the-parliament.html#chapter-01_part-05_51).
   </p>
 </details>
 <br>
 
-Exactly how these levels of government interact varies across a spectrum with
-most countries being a mix of:
+Exactly how these levels of government interact varies across a spectrum with most countries being a mix of:
 
 - [Unitary state](https://en.wikipedia.org/wiki/Unitary_state) - More
   centralised and top down.
@@ -266,20 +250,7 @@ References:
 
 ## Modern political systems
 
-According to professor [Juan José Linz](https://en.wikipedia.org/wiki/Juan_José_Linz)
-there are three main types of political systems today:
-[democracies](https://en.wikipedia.org/wiki/Democracy),
-[totalitarian regimes](https://en.wikipedia.org/wiki/Totalitarianism) regimes
-and, sitting between these two,
-[authoritarian regimes](https://en.wikipedia.org/wiki/Authoritarianism). There
-are a number of hybrid regimes. There are some categories that map cleanly onto
-this spectrum that often use different names, like:
-[monarchies](https://en.wikipedia.org/wiki/Monarchy),
-[theocracies](https://en.wikipedia.org/wiki/Theocracy),
-[oligarchies](https://en.wikipedia.org/wiki/Oligarchy), and
-[military juntas](https://en.wikipedia.org/wiki/Military_junta). The only countries
-that don't claim to be a type of democracy are Saudi Arabia, Oman, the UAE,
-Qatar, Brunei, Afghanistan, and the Vatican ([see this map](https://en.wikipedia.org/wiki/List_of_forms_of_government#/media/File:Democracy_claims.svg)).
+According to professor [Juan José Linz](https://en.wikipedia.org/wiki/Juan_José_Linz) there are three main types of political systems today: [democracies](https://en.wikipedia.org/wiki/Democracy), [totalitarian regimes](https://en.wikipedia.org/wiki/Totalitarianism) regimes and, sitting between these two, [authoritarian regimes](https://en.wikipedia.org/wiki/Authoritarianism). There are a number of hybrid regimes. There are some categories that map cleanly onto this spectrum that often use different names, like: [monarchies](https://en.wikipedia.org/wiki/Monarchy), [theocracies](https://en.wikipedia.org/wiki/Theocracy), [oligarchies](https://en.wikipedia.org/wiki/Oligarchy), and [military juntas](https://en.wikipedia.org/wiki/Military_junta). The only countries that don't claim to be a type of democracy are Saudi Arabia, Oman, the UAE, Qatar, Brunei, Afghanistan, and the Vatican ([see this map](https://en.wikipedia.org/wiki/List_of_forms_of_government#/media/File:Democracy_claims.svg)).
 
 References:
 
@@ -289,11 +260,7 @@ References:
 
 ### World's states colored by systems of government
 
-> **Note**: Several states constitutionally declare themselves to be multiparty
-republics but are generally described by outsiders as authoritarian states. This
-chart represents the [de jure](https://en.wikipedia.org/wiki/De_jure) systems of
-government, not the [de facto](https://en.wikipedia.org/wiki/De_facto) degree of
-democracy.
+> **Note**: Several states constitutionally declare themselves to be multiparty republics but are generally described by outsiders as authoritarian states. This chart represents the [de jure](https://en.wikipedia.org/wiki/De_jure) systems of government, not the [de facto](https://en.wikipedia.org/wiki/De_facto) degree of democracy.
 
 [![Text](https://upload.wikimedia.org/wikipedia/commons/0/04/Forms_of_government.svg)](https://en.wikipedia.org/wiki/File:Forms_of_government.svg)
 
@@ -349,15 +316,7 @@ References:
 
 ### Totalitarian regimes
 
-A form of government that prohibits opposition from political parties,
-disregards and outlaws the political claims of individual and group opposition
-to the state, and completely controls the public sphere and the private sphere
-of society. Ideology is used to control most aspects of human life, such as the
-political economy of the country, the system of education, the arts, sciences,
-and private morality of its citizens. The difference between a totalitarian
-régime and an [authoritarian](https://en.wikipedia.org/wiki/Authoritarianism)
-régime is the degree of control with [totalitarian](https://en.wikipedia.org/wiki/Totalitarianism)
-being complete control.
+A form of government that prohibits opposition from political parties, disregards and outlaws the political claims of individual and group opposition to the state, and completely controls the public sphere and the private sphere of society. Ideology is used to control most aspects of human life, such as the political economy of the country, the system of education, the arts, sciences, and private morality of its citizens. The difference between a totalitarian regime and an [authoritarian](https://en.wikipedia.org/wiki/Authoritarianism) regime is the degree of control with [totalitarian](https://en.wikipedia.org/wiki/Totalitarianism) being complete control.
 
 References:
 
@@ -365,14 +324,7 @@ References:
 
 ### Authoritarian regimes
 
-An [authoritarian](https://en.wikipedia.org/wiki/Authoritarianism) regime has a
-concentration of power in a leader or an elite not constitutionally responsible
-to the people". Unlike totalitarian states, they will allow social and economic
-institutions not under governmental control, and tend to rely on passive mass
-acceptance rather than active popular support.
-[Juan Linz](https://en.wikipedia.org/wiki/Juan_José_Linz) in
-[*An Authoritarian Regime: Spain*](https://www.academia.edu/39203506/I_B_33_An_Authoritarian_Regime_The_Case_of_Spain)
-defined authoritarianism as possessing four qualities:
+An [authoritarian](https://en.wikipedia.org/wiki/Authoritarianism) regime has a concentration of power in a leader or an elite not constitutionally responsible to the people". Unlike totalitarian states, they will allow social and economic institutions not under governmental control, and tend to rely on passive mass acceptance rather than active popular support. [Juan Linz](https://en.wikipedia.org/wiki/Juan_José_Linz) in [*An Authoritarian Regime: Spain*](https://www.academia.edu/39203506/I_B_33_An_Authoritarian_Regime_The_Case_of_Spain) defined authoritarianism as possessing four qualities:
 
 - Limited political pluralism, which is achieved with constraints on the
 legislature, political parties and interest groups.
@@ -383,14 +335,9 @@ such as underdevelopment or insurgency."
 - Ill-defined executive powers, often vague and shifting, used to extend the
 power of the executive.
 
-Typically control is maintained by force, and little heed is paid to public
-opinion or the judicial system.
+Typically control is maintained by force, and little heed is paid to public opinion or the judicial system.
 
-There is a common mental image of an authoritarian state as one of grim totalitarianism,
-desperate hardship, strict censorship, and dictatorial orders of murder,
-torture and disappearances. But as
-[Thomas Pepinsky](https://en.wikipedia.org/wiki/Thomas_Pepinsky) writes,
-"life in authoritarian states is mostly boring and tolerable".
+There is a common mental image of an authoritarian state as one of grim totalitarianism, desperate hardship, strict censorship, and dictatorial orders of murder, torture and disappearances. But as [Thomas Pepinsky](https://en.wikipedia.org/wiki/Thomas_Pepinsky) writes, "life in authoritarian states is mostly boring and tolerable".
 
 References:
 
@@ -421,22 +368,9 @@ References:
 
 ### Democracies
 
-In a minimalist definition of
-[democracy](https://en.wikipedia.org/wiki/Democracy), rulers are elected through
-competitive elections. Throughout history, one can find evidence of direct
-democracy, in which communities make decisions through popular assembly. Today,
-the dominant form of democracy is representative democracy, where citizens elect
-government officials to govern on their behalf such as in a parliamentary or
-presidential democracy. In the common variant of liberal democracy, the powers
-of the majority are exercised within the framework of a representative
-democracy, but a constitution and supreme court limit the majority and protect
-the minority — usually through securing the enjoyment by all of certain
-individual rights.
+In a minimalist definition of [democracy](https://en.wikipedia.org/wiki/Democracy), rulers are elected through competitive elections. Throughout history, one can find evidence of direct democracy, in which communities make decisions through popular assembly. Today, the dominant form of democracy is representative democracy, where citizens elect government officials to govern on their behalf such as in a parliamentary or presidential democracy. In the common variant of liberal democracy, the powers of the majority are exercised within the framework of a representative democracy, but a constitution and supreme court limit the majority and protect the minority — usually through securing the enjoyment by all of certain individual rights.
 
-Democracy has it's flaws as summarised by [Winston Churchill's remark](https://api.parliament.uk/historic-hansard/commons/1947/nov/11/parliament-bill#column_206)
-that "No one pretends that democracy is perfect or all-wise. Indeed, it has been
-said that democracy is the worst form of government except all those other forms
-that have been tried from time to time."
+Democracy has it's flaws as summarised by [Winston Churchill's remark](https://api.parliament.uk/historic-hansard/commons/1947/nov/11/parliament-bill#column_206) that "No one pretends that democracy is perfect or all-wise. Indeed, it has been said that democracy is the worst form of government except all those other forms that have been tried from time to time."
 
 #### Basic forms
 
@@ -465,12 +399,7 @@ elected by the people.
 
 ##### Presidential democracies
 
-A [presidential democracy](https://en.wikipedia.org/wiki/Presidential_system)
-is a representative democracy where the president, the head of the executive branch,
-is elected directly by the people. The legislature often has limited ability
-to remove a president from office. Elections typically have a fixed date and
-are not easily changed. The president has direct control over the cabinet,
-specifically appointing the cabinet members.
+A [presidential democracy](https://en.wikipedia.org/wiki/Presidential_system) is a representative democracy where the president, the head of the executive branch, is elected directly by the people. The legislature often has limited ability to remove a president from office. Elections typically have a fixed date and are not easily changed. The president has direct control over the cabinet, specifically appointing the cabinet members.
 
 ### Oligarchies
 
