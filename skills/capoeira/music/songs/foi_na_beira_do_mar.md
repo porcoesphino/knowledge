@@ -21,6 +21,6 @@ Español:
 English:
 
 > It was at the seaside \
-> It was at the seaside
-> That I learned to play
+> It was at the seaside \
+> That I learned to play \
 > capoeira de angola by the sea
