@@ -1,6 +1,7 @@
 # ⁠Areia
 
-[Youtube](https://youtu.be/L_0KDCBOP1Q?si=yWGMBr2c8-Muo8jq)
+[Youtube](https://youtu.be/L_0KDCBOP1Q) |
+[Capoeira Cafe](https://www.capoeira.cafe/oh-areia/)
 
 # Completo
 

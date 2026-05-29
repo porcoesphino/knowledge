@@ -1,6 +1,7 @@
 # Balança que pesa ouro
 
-[Youtube](https://music.youtube.com/watch?v=racR9nAfpI4)
+[Youtube](https://youtu.be/racR9nAfpI4) |
+[Capoeira Cafe](https://www.capoeira.cafe/balanca-que-pesa-ouro/)
 
 <!-- <iframe style="width;500px;height:300px" src="https://www.youtube.com/embed/racR9nAfpI4" frameborder="0" allowfullscreen></iframe> -->
 
