@@ -9,6 +9,7 @@
 - [Madeira de maçaranduba](./songs/madeira_de_macaranduba.md)
 - [Samba Lele Bateu Na Porta](./songs/samba_le_le_bateu_na_porta.md)
 - [Parabéns pra você](./songs/parabens_pra_voce.md)
+- [Mora iemanjá](./songs/mora_iemanja.md)
 - [Tava na beira da praia](./songs/tava_na_beira_da_praia.md)
 
 #### Junho
