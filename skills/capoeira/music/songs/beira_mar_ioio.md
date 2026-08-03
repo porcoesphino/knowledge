@@ -1,6 +1,6 @@
 # ⁠Beira Mar ioio
 
-[Youtube](https://youtu.be/499py7R8ciw) |
+[YouTube](https://youtu.be/499py7R8ciw) |
 [Capoeira Cafe](https://www.capoeira.cafe/beira-mar-ioio/)
 
 ## Completo

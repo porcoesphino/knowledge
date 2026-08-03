@@ -1,6 +1,6 @@
 # Amanhã é dia santo
 
-[Youtube](https://youtu.be/7ulazEnFJLE) |
+[YouTube](https://youtu.be/7ulazEnFJLE) |
 [Capoeira Cafe](https://www.capoeira.cafe/amanha-e-dia-santo-umdois-tres/) |
 [Deezer](https://link.deezer.com/s/33oOIyLaLkNpCsg62uh91)
 
@@ -38,13 +38,13 @@
 
 <small>
 
-> Tomorrow is Saint day \
+> Tomorrow is a holy day \
 > **one two three**
 >
 > A day of God’s people \
 > **Three and three: six**
 >
-> Who has clothes, go to the miss\
+> Who has clothes, go to the mass\
 > **Six and three: nine**
 >
 > Who hasn’t do as I do \
